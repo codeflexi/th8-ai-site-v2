@@ -17,8 +17,7 @@
           <h1 class="text-3xl lg:text-4xl font-semibold leading-tight text-th8-text">
             ลดงาน Routine <span class="text-th8-primary">30–50%</span> และลด Error
             <span class="text-th8-primary">20–40%</span>
-            ด้วย <span class="underline decoration-th8-primary/60">Agentic AI</span> ที่เข้าไปเสริมกำลังให้
-            Workflow ของทีมคุณ
+            ด้วย <span class="underline decoration-th8-primary/60">Agentic AI</span> ที่เข้าไปเสริมกำลังให้ Workflow ของทีมคุณ
           </h1>
 
           <p class="text-sm lg:text-base text-th8-text/80 leading-relaxed max-w-xl">
@@ -32,55 +31,17 @@
           <!-- Hero Metrics -->
           <div class="grid grid-cols-3 gap-3 text-[11px] lg:text-xs">
             <div class="rounded-2xl border border-th8-border bg-white p-3 shadow-sm">
-              <div class="flex items-center justify-between mb-1">
-                <p class="text-[10px] uppercase tracking-wide text-slate-500">TIME SAVED</p>
-                <!-- simple bar icon -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
-                  <rect x="3" y="12" width="3" height="8" class="fill-current opacity-40" />
-                  <rect x="10" y="9" width="3" height="11" class="fill-current opacity-70" />
-                  <rect x="17" y="6" width="3" height="14" class="fill-current" />
-                </svg>
-              </div>
+              <p class="text-[10px] uppercase tracking-wide text-slate-500 mb-1">TIME SAVED</p>
               <p class="text-lg font-semibold text-th8-text">30–50%</p>
               <p class="text-[11px] text-slate-600">ลดงานคีย์มือ & งานติดตามงาน</p>
             </div>
             <div class="rounded-2xl border border-th8-border bg-white p-3 shadow-sm">
-              <div class="flex items-center justify-between mb-1">
-                <p class="text-[10px] uppercase tracking-wide text-slate-500">ERROR ลดลง</p>
-                <!-- check list icon -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-emerald-500">
-                  <rect x="4" y="5" width="6" height="2" class="fill-current opacity-30" />
-                  <rect x="4" y="11" width="8" height="2" class="fill-current opacity-60" />
-                  <rect x="4" y="17" width="10" height="2" class="fill-current" />
-                  <polyline
-                    points="17,6 19,8 22,4"
-                    class="fill-none stroke-current"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
+              <p class="text-[10px] uppercase tracking-wide text-slate-500 mb-1">ERROR ลดลง</p>
               <p class="text-lg font-semibold text-th8-text">20–40%</p>
               <p class="text-[11px] text-slate-600">เช็คเอกสาร / Transaction ข้ามระบบ</p>
             </div>
             <div class="rounded-2xl border border-th8-border bg-white p-3 shadow-sm">
-              <div class="flex items-center justify-between mb-1">
-                <p class="text-[10px] uppercase tracking-wide text-slate-500">DESIGNED FOR</p>
-                <!-- org icon -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-slate-500">
-                  <rect x="9" y="3" width="6" height="4" rx="1" class="fill-current opacity-70" />
-                  <rect x="3" y="13" width="6" height="4" rx="1" class="fill-current opacity-40" />
-                  <rect x="15" y="13" width="6" height="4" rx="1" class="fill-current opacity-40" />
-                  <path
-                    d="M12 7v4M7 13l5-2 5 2"
-                    class="fill-none stroke-current opacity-70"
-                    stroke-width="1.2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
+              <p class="text-[10px] uppercase tracking-wide text-slate-500 mb-1">DESIGNED FOR</p>
               <p class="text-lg font-semibold text-th8-text">Enterprise & SME</p>
               <p class="text-[11px] text-slate-600">ออกแบบจากประสบการณ์ระบบระดับธนาคาร</p>
             </div>
@@ -103,18 +64,8 @@
           </div>
         </div>
 
-        <!-- Right: Card + Illustration -->
+        <!-- Right: Card แบบง่าย -->
         <div class="relative">
-          <!-- illustration: put unDraw here -->
-          <div class="hidden lg:block absolute -top-10 -right-4">
-            <!-- เปลี่ยน src ให้ชี้ไปไฟล์ที่โหลดมาจาก unDraw -->
-            <img
-              src="../assets/illustrations/undraw_analytics_setup.svg"
-              alt="Dashboard & workflow illustration"
-              class="w-40 h-auto drop-shadow-md"
-            />
-          </div>
-
           <div class="absolute -inset-5 rounded-3xl bg-th8-primary/5 blur-2xl"></div>
           <div
             class="relative rounded-3xl border border-th8-border bg-white p-5 lg:p-6 shadow-md text-[11px] space-y-3"
@@ -140,27 +91,10 @@
                   Task Planner · Tool calling · RAG · Exception handling · Human-in-the-loop
                 </p>
               </div>
-              <!-- replace 🤖 ด้วย vector icon -->
               <div
-                class="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-full bg-th8-primary/10 border border-th8-primary/40"
+                class="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-full bg-th8-primary text-white text-[15px]"
               >
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
-                  <circle cx="12" cy="8" r="3.2" class="fill-current opacity-80" />
-                  <rect
-                    x="7"
-                    y="12"
-                    width="10"
-                    height="6"
-                    rx="2"
-                    class="fill-current opacity-40"
-                  />
-                  <path
-                    d="M5 11h14"
-                    class="stroke-current opacity-70"
-                    stroke-width="1.3"
-                    stroke-linecap="round"
-                  />
-                </svg>
+                🤖
               </div>
             </div>
 
@@ -173,10 +107,10 @@
               </p>
             </div>
 
-            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-3">
+              <div class="rounded-2xl border border-slate-200 bg-slate-50 p-3">
               <p class="font-semibold text-slate-800 mb-1">Interface Layer</p>
               <p class="text-slate-500">
-                LINE OA · Web portal · API · Google Sheet · Email
+              LINE OA · Web portal · API · Google Sheet · Email
                 Order → Picking → Delivery
               </p>
             </div>
@@ -197,8 +131,8 @@
         <div class="text-center space-y-3">
           <h2 class="text-2xl font-bold text-th8-text">เราทำงานกับทีมแบบไหน?</h2>
           <p class="text-sm text-th8-text/70">
-            TH8.AI ทำงานใกล้ชิดกับทีมที่ “แตะข้อมูลและระบบทุกวัน”  
-            ไม่ว่าจะเป็นการเงิน ปฏิบัติการ หรือโลจิสติกส์
+             TH8.AI ทำงานใกล้ชิดกับทีมที่ “แตะข้อมูลและระบบทุกวัน”  
+              ไม่ว่าจะเป็นการเงิน ปฏิบัติการ หรือโลจิสติกส์
           </p>
         </div>
 
@@ -206,25 +140,7 @@
         <div class="grid md:grid-cols-3 gap-6">
           <!-- Finance -->
           <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
-            <div class="flex items-center gap-3 mb-3">
-              <div
-                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-th8-primary/10"
-              >
-                <!-- finance icon -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
-                  <path
-                    d="M4 18h16"
-                    class="stroke-current opacity-50"
-                    stroke-width="1.3"
-                    stroke-linecap="round"
-                  />
-                  <rect x="5" y="10" width="3" height="6" class="fill-current opacity-40" />
-                  <rect x="10.5" y="8" width="3" height="8" class="fill-current opacity-70" />
-                  <rect x="16" y="6" width="3" height="10" class="fill-current" />
-                </svg>
-              </div>
-              <h3 class="font-semibold text-th8-text">Finance &amp; FP&amp;A</h3>
-            </div>
+            <h3 class="font-semibold text-th8-text mb-2">Finance &amp; FP&amp;A</h3>
             <p class="text-sm text-th8-text/70 mb-4">
               ลดเวลาปิดงบ วิเคราะห์ตัวเลขอัตโนมัติ เตรียม Insight ให้ผู้บริหาร
             </p>
@@ -237,19 +153,7 @@
 
           <!-- Ops -->
           <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
-            <div class="flex items-center gap-3 mb-3">
-              <div
-                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10"
-              >
-                <!-- ops icon: boxes -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-emerald-600">
-                  <rect x="4" y="5" width="7" height="6" rx="1" class="fill-current opacity-70" />
-                  <rect x="13" y="7" width="7" height="6" rx="1" class="fill-current opacity-40" />
-                  <rect x="8" y="13" width="8" height="6" rx="1" class="fill-current opacity-60" />
-                </svg>
-              </div>
-              <h3 class="font-semibold text-th8-text">Operations &amp; Inventory</h3>
-            </div>
+            <h3 class="font-semibold text-th8-text mb-2">Operations &amp; Inventory</h3>
             <p class="text-sm text-th8-text/70 mb-4">
               เชื่อมระบบเดิม + จัดการ Order, Stock, Exception แบบอัตโนมัติ
             </p>
@@ -262,23 +166,7 @@
 
           <!-- Logistics -->
           <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
-            <div class="flex items-center gap-3 mb-3">
-              <div
-                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-sky-500/10"
-              >
-                <!-- logistics icon: simple truck -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-sky-600">
-                  <rect x="3" y="9" width="9" height="5" rx="1" class="fill-current opacity-80" />
-                  <path
-                    d="M12 10h4l3 3v1h-7"
-                    class="fill-current opacity-60"
-                  />
-                  <circle cx="7" cy="16" r="1.6" class="fill-current" />
-                  <circle cx="17" cy="16" r="1.6" class="fill-current" />
-                </svg>
-              </div>
-              <h3 class="font-semibold text-th8-text">Logistics &amp; Delivery</h3>
-            </div>
+            <h3 class="font-semibold text-th8-text mb-2">Logistics &amp; Delivery</h3>
             <p class="text-sm text-th8-text/70 mb-4">
               Route planning, Dispatch, Follow-up และ Exception ช่วยลดภาระทีมขนส่ง
             </p>
@@ -307,24 +195,9 @@
         <!-- Columns -->
         <div class="grid md:grid-cols-3 gap-6 text-sm">
           <div class="rounded-2xl border border-th8-border bg-white p-5 shadow-sm space-y-3">
-            <div class="flex items-center gap-2">
-              <div
-                class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-th8-primary/10"
-              >
-                <!-- agent suite icon: 4 dots -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
-                  <circle cx="8" cy="8" r="2" class="fill-current opacity-80" />
-                  <circle cx="16" cy="8" r="2" class="fill-current opacity-60" />
-                  <circle cx="8" cy="16" r="2" class="fill-current opacity-60" />
-                  <circle cx="16" cy="16" r="2" class="fill-current opacity-40" />
-                </svg>
-              </div>
-              <div>
-                <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
-                  Pillar 1 · AI Agent Suite
-                </p>
-              </div>
-            </div>
+            <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+              Pillar 1 · AI Agent Suite
+            </p>
             <h3 class="font-bold text-th8-text">Agent สำหรับงานหลักขององค์กร</h3>
             <p class="text-[13px] text-slate-700">
               FP&amp;A Copilot, Inventory &amp; Replenishment, Route Planner, Document QC  
@@ -333,30 +206,9 @@
           </div>
 
           <div class="rounded-2xl border border-th8-border bg-white p-5 shadow-sm space-y-3">
-            <div class="flex items-center gap-2">
-              <div
-                class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-500/10"
-              >
-                <!-- workflow icon -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-emerald-600">
-                  <rect x="4" y="5" width="6" height="4" rx="1" class="fill-current opacity-80" />
-                  <rect x="14" y="10" width="6" height="4" rx="1" class="fill-current opacity-60" />
-                  <rect x="4" y="15" width="6" height="4" rx="1" class="fill-current opacity-40" />
-                  <path
-                    d="M10 7h2.5v3M11.5 12H14M10 17h2.5v-3"
-                    class="stroke-current opacity-80"
-                    stroke-width="1.2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
-              <div>
-                <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
-                  Pillar 2 · AI Workflow Automation
-                </p>
-              </div>
-            </div>
+            <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+              Pillar 2 · AI Workflow Automation
+            </p>
             <h3 class="font-bold text-th8-text">เชื่อม Agent เข้ากับระบบเดิมของคุณ</h3>
             <p class="text-[13px] text-slate-700">
               ERP, WMS, CRM, Google Sheet, Email, LINE OA  
@@ -365,36 +217,9 @@
           </div>
 
           <div class="rounded-2xl border border-th8-border bg-white p-5 shadow-sm space-y-3">
-            <div class="flex items-center gap-2">
-              <div
-                class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-sky-500/10"
-              >
-                <!-- knowledge icon -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-sky-600">
-                  <path
-                    d="M6 6h10a2 2 0 0 1 2 2v10H8a2 2 0 0 1-2-2V6z"
-                    class="fill-current opacity-70"
-                  />
-                  <path
-                    d="M6 6a2 2 0 0 0-2 2v10"
-                    class="stroke-current opacity-60"
-                    stroke-width="1.2"
-                    stroke-linecap="round"
-                  />
-                  <path
-                    d="M10 9h6M10 12h4"
-                    class="stroke-current opacity-90"
-                    stroke-width="1.2"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </div>
-              <div>
-                <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
-                  Pillar 3 · AI Knowledge &amp; Analytics
-                </p>
-              </div>
-            </div>
+            <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+              Pillar 3 · AI Knowledge &amp; Analytics
+            </p>
             <h3 class="font-bold text-th8-text">เปลี่ยนเอกสารกองใหญ่ให้ใช้การได้จริง</h3>
             <p class="text-[13px] text-slate-700">
               RAG, Document pipeline, Exception library และ Dashboard  
@@ -420,20 +245,7 @@
 
         <div class="grid md:grid-cols-4 gap-4 text-sm">
           <div class="rounded-2xl border border-th8-border bg-white p-4 shadow-sm">
-            <div class="flex items-center justify-between mb-1">
-              <p class="text-[11px] uppercase tracking-wide text-slate-500">Routine Work</p>
-              <!-- clock icon -->
-              <svg viewBox="0 0 24 24" class="h-4 w-4 text-slate-500">
-                <circle cx="12" cy="12" r="7" class="fill-none stroke-current" stroke-width="1.2" />
-                <path
-                  d="M12 9v4l2 1.5"
-                  class="stroke-current"
-                  stroke-width="1.2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
+            <p class="text-[11px] uppercase tracking-wide text-slate-500 mb-1">Routine Work</p>
             <p class="text-2xl font-semibold text-th8-text mb-1">30–50%</p>
             <p class="text-[12px] text-slate-600">
               ลดงานคีย์มือ ไล่เช็กเอกสาร และงานตามงานข้ามระบบ
@@ -441,23 +253,7 @@
           </div>
 
           <div class="rounded-2xl border border-th8-border bg-white p-4 shadow-sm">
-            <div class="flex items-center justify-between mb-1">
-              <p class="text-[11px] uppercase tracking-wide text-slate-500">Error</p>
-              <!-- shield/check icon -->
-              <svg viewBox="0 0 24 24" class="h-4 w-4 text-emerald-500">
-                <path
-                  d="M12 4l6 2v5c0 3.3-1.9 6.3-6 7.8-4.1-1.5-6-4.5-6-7.8V6l6-2z"
-                  class="fill-current opacity-20"
-                />
-                <path
-                  d="M9 11.5l2 2 4-3.5"
-                  class="stroke-current"
-                  stroke-width="1.3"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
+            <p class="text-[11px] uppercase tracking-wide text-slate-500 mb-1">Error</p>
             <p class="text-2xl font-semibold text-th8-text mb-1">20–40%</p>
             <p class="text-[12px] text-slate-600">
               ลด Human error ใน PO, Invoice, Stock และ Transaction
@@ -465,19 +261,7 @@
           </div>
 
           <div class="rounded-2xl border border-th8-border bg-white p-4 shadow-sm">
-            <div class="flex items-center justify-between mb-1">
-              <p class="text-[11px] uppercase tracking-wide text-slate-500">Cycle Time</p>
-              <!-- trend line icon -->
-              <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
-                <path
-                  d="M4 16l5-5 4 3 7-8"
-                  class="stroke-current"
-                  stroke-width="1.3"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
+            <p class="text-[11px] uppercase tracking-wide text-slate-500 mb-1">Cycle Time</p>
             <p class="text-2xl font-semibold text-th8-text mb-1">25–35%</p>
             <p class="text-[12px] text-slate-600">
               ลดเวลาปิดงบ เคลียร์งานสะสม และเคสค้างในระบบ
@@ -485,16 +269,7 @@
           </div>
 
           <div class="rounded-2xl border border-th8-border bg-white p-4 shadow-sm">
-            <div class="flex items-center justify-between mb-1">
-              <p class="text-[11px] uppercase tracking-wide text-slate-500">Visibility</p>
-              <!-- dashboard icon -->
-              <svg viewBox="0 0 24 24" class="h-4 w-4 text-slate-500">
-                <rect x="4" y="5" width="7" height="5" class="fill-current opacity-70" />
-                <rect x="13" y="5" width="7" height="5" class="fill-current opacity-40" />
-                <rect x="4" y="13" width="7" height="6" class="fill-current opacity-40" />
-                <rect x="13" y="13" width="7" height="6" class="fill-current opacity-70" />
-              </svg>
-            </div>
+            <p class="text-[11px] uppercase tracking-wide text-slate-500 mb-1">Visibility</p>
             <p class="text-2xl font-semibold text-th8-text mb-1">Real-time</p>
             <p class="text-[12px] text-slate-600">
               ดึงข้อมูลจากหลายระบบมาอยู่ในมุมมองเดียวให้ทีมตัดสินใจได้เร็วขึ้น
@@ -563,17 +338,8 @@
         <!-- Playbook CTA -->
         <div class="max-w-4xl mx-auto">
           <div
-            class="rounded-2xl border border-th8-border bg-th8-surface p-8 shadow-sm space-y-4 text-center relative overflow-hidden"
+            class="rounded-2xl border border-th8-border bg-th8-surface p-8 shadow-sm space-y-4 text-center"
           >
-            <!-- background illustration -->
-            <div class="hidden md:block absolute -right-6 -bottom-4 opacity-20">
-              <img
-                src="../assets/illustrations/undraw_agreement.svg"
-                alt="Workshop illustration"
-                class="w-40 h-auto"
-              />
-            </div>
-
             <p class="text-[11px] font-semibold uppercase tracking-wide text-th8-primary">
               สำหรับทีม IT / Data / Process Owner
             </p>

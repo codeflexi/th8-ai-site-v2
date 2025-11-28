@@ -2,15 +2,31 @@
   <header class="border-b border-th8-border bg-th8-surface/80 backdrop-blur sticky top-0 z-20">
     <nav class="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
       <!-- Logo -->
-      <RouterLink to="/" class="flex items-center gap-2">
-        <div class="w-8 h-8 rounded-xl bg-th8-red flex items-center justify-center text-xs font-bold text-white shadow-sm">
-          TH8
+<RouterLink to="/" class="flex items-center gap-2">
+        <div class="flex items-center gap-2">
+          <div
+            class="h-10 w-10 rounded-2xl  flex items-center justify-center text-xs font-semibold tracking-wider text-white shadow-sm"
+          >
+             <img
+                :src="th8Icon"
+                alt=""
+                class="h-10 w-10"
+              />
+          </div>
+          <div class="flex flex-col">
+            <span
+              class="text-[11px] font-semibold uppercase tracking-[0.18em] text-red-600"
+            >
+              TH8.AI
+            </span>
+            <span class="text-[11px] text-slate-500">
+              Thailand-First Agentic AI & Workflow
+            </span>
+          </div>
         </div>
-        <div class="flex flex-col leading-tight">
-          <span class="font-semibold tracking-tight text-th8-text">TH8.AI</span>
-          <span class="text-[10px] uppercase text-slate-500">Agentic AI & Automation</span>
-        </div>
-      </RouterLink>
+</RouterLink>
+
+    
 
       <!-- Desktop Nav -->
       <ul class="hidden md:flex items-center gap-6 text-sm">
@@ -55,14 +71,7 @@
             Case Studies
           </RouterLink>
         </li>
-        <li>
-          <RouterLink
-            :to="{ name: 'financial' }"
-            class="inline-flex items-center gap-1 px-2 py-1 rounded-full border border-th8-border text-[11px] font-medium text-th8-primary bg-red-50/70 hover:border-th8-primary"
-          >
-            <span>AI FP&A Suite</span>
-          </RouterLink>
-        </li>
+        
       </ul>
 
       <!-- Desktop CTA -->
@@ -128,13 +137,7 @@
         >
           Case Studies
         </RouterLink>
-        <RouterLink
-          :to="{ name: 'financial' }"
-          class="block py-1 text-th8-primary font-semibold"
-          @click="open = false"
-        >
-          AI FP&A Suite
-        </RouterLink>
+        
         <RouterLink
           :to="{ name: 'contact' }"
           class="block mt-2 rounded-full bg-th8-primary text-center text-xs font-semibold text-white py-2"
@@ -150,6 +153,7 @@
 <script setup>
 import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
+import th8Icon from '../assets/th8.png'
 
 const open = ref(false)
 </script>

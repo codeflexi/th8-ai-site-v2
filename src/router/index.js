@@ -38,6 +38,7 @@ import PillarKnowledgeView from '../views/pillars/PillarKnowledgeView.vue'
 import AgentInventoryDemoView from '../views/pillars/AgentInventoryDemo.vue'
 import AgentFpaDemoView from '../views/pillars/AgentFpaDemo.vue'
 
+
 import WorkflowLineOrderView from '../views/pillars/WorkflowLineOrder.vue'
 import WorkflowOrderStockLoadingView from '../views/pillars/WorkflowOrderStockLoading.vue'
 import WorkflowProcurementApView from '../views/pillars/WorkflowProcurementAp.vue'
@@ -54,6 +55,10 @@ import BackofficeConsoleView from '../views/pillars/BackofficeConsole.vue'
 
 // ⭐ NEW: Pillar 2 – Sales mockup screen
 import Pillar2SaleView from '../views/pillars/Pillar2Sale.vue'
+import Pillar2StockView from '../views/pillars/Pillar2Stock.vue'
+import Pillar2ProcurementkView from '../views/pillars/Pillar2Procurement.vue'
+import Pillar1BackofficeFpaDetail from '../views/pillars/Pillar1BackofficeFpaDetail.vue'  
+
 
 const routes = [
   { path: '/', name: 'home', component: HomeView },
@@ -176,6 +181,29 @@ const routes = [
     path: '/pillars/workflow/sale-mockup',
     name: 'pillar2-sale-mockup',
     component: Pillar2SaleView,
+  },
+
+   // ⭐ Pillar 2 – Stock mockup screen
+  {
+    path: '/pillars/workflow/stock-mockup',
+    name: 'pillar2-stock-mockup',
+    component: Pillar2StockView,
+  },
+
+   // ⭐ Pillar 2 – Procurement mockup screen
+  {
+    path: '/pillars/workflow/procurement-mockup',
+    name: 'pillar2-procurement-mockup',
+    component: Pillar2ProcurementkView,
+  },
+
+    // ⭐ Pillar 1 – FPA Detail screen
+  {
+    path: '/pillars/agent-suite/backoffice/fpa-detail',
+    name: 'pillar1-fpa-detail',
+    component: Pillar1BackofficeFpaDetail,
+
+    
   },
 
   // Pillar 3 Backoffice

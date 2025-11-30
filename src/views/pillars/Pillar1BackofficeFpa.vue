@@ -12,6 +12,29 @@
         ตัวอย่างหน้าจอ FP&amp;A Agent สำหรับทีมการเงิน / FP&amp;A ที่ต้องดูทั้งกลุ่ม  
         เช่น แสงไทยเมทัลชีท กับ SolarWing หลายสาขา และฝั่ง Back Office ที่เห็น data set &amp; การเชื่อมต่อกับ ERP / Data Warehouse / Sheet.
       </p>
+
+    <!-- 🔗 CTA ไปหน้า Mockup -->
+        <div class="pt-2">
+          <RouterLink
+            :to="{ name: 'agent-fpa-demo' }"
+            class="inline-flex items-center rounded-full border border-th8-border bg-white px-4 py-2 text-[11px] md:text-xs font-medium text-th8-text hover:bg-slate-50"
+          >
+            ดูหน้าจอ Mockup: Actual vs Budget · FP&amp;A Agent
+          </RouterLink>
+        </div>
+
+
+    <!-- 🔗 CTA ไปหน้า Mockup -->
+        <div class="pt-2">
+          <RouterLink
+            :to="{ name: 'pillar1-fpa-detail' }"
+            class="inline-flex items-center rounded-full border border-th8-border bg-white px-4 py-2 text-[11px] md:text-xs font-medium text-th8-text hover:bg-slate-50"
+          >
+            ดูหน้าจอ Mockup: More Details · FP&amp;A Agent
+          </RouterLink>
+        </div>
+      
+      
 </header>
 <!-- MAIN LAYOUT -->
 <div class="grid md:grid-cols-[1.15fr_0.85fr] gap-5 md:gap-6 text-xs md:text-sm">

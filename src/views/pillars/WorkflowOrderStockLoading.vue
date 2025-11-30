@@ -14,6 +14,16 @@
           และสถานะงานที่ลานโหลด พร้อมจุดที่ Agent เข้าไปช่วยตรวจความครบถ้วน
           ลดผิดพลาด และอัปเดตสถานะให้ทุกทีมเห็นภาพเดียวกัน
         </p>
+
+          <!-- 🔗 CTA ไปหน้า Mockup -->
+        <div class="pt-2">
+          <RouterLink
+            :to="{ name: 'pillar2-stock-mockup' }"
+            class="inline-flex items-center rounded-full border border-th8-border bg-white px-4 py-2 text-[11px] md:text-xs font-medium text-th8-text hover:bg-slate-50"
+          >
+            ดูหน้าจอ Mockup: LINE → Stock Issue Workflow
+          </RouterLink>
+        </div>
       </div>
     </section>
 

@@ -13,6 +13,17 @@
           Flow ที่ปกติเต็มไปด้วยกระดาษและการ Reconcile ข้ามระบบ
           Agent เข้าไปช่วยตรวจความตรงกันของเอกสาร, เช็คราคา-ปริมาณ, และเตือนเคสผิดปกติ
         </p>
+
+  <!-- 🔗 CTA ไปหน้า Mockup -->
+        <div class="pt-2">
+          <RouterLink
+            :to="{ name: 'pillar2-procurement-mockup' }"
+            class="inline-flex items-center rounded-full border border-th8-border bg-white px-4 py-2 text-[11px] md:text-xs font-medium text-th8-text hover:bg-slate-50"
+          >
+            ดูหน้าจอ Mockup: LINE → Procurement Workflow
+          </RouterLink>
+        </div>
+
       </div>
     </section>
 

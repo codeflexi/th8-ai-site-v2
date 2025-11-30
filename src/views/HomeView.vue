@@ -173,7 +173,6 @@
               <p class="font-semibold text-slate-800 mb-1">Interface Layer</p>
               <p class="text-slate-500">
                 LINE OA · Web portal · API · Google Sheet · Email
-                Order → Picking → Delivery
               </p>
             </div>
 

@@ -13,24 +13,47 @@ import PlanSphereThView from '../views/PlanSphereThView.vue'
 import PlanSphereFlowView from '../views/PlanSphereFlowView.vue'
 import FpaPlaybookView from '../views/FpaPlaybookView.vue'
 import FpaCaseStudiesView from '../views/FpaCaseStudiesView.vue'
+
 // Deep / technical versions
 import ServicesViewDeep from '../views/ServicesView.vue'
 import MethodologyDeep from '../views/WhatWeDoView.vue'
 import PlaybookView from '../views/PlaybookView.vue'
 
-// ⬇️ เพิ่มสองอันนี้
+// Existing solution views
 import AccountingApFnbStoryView from '../views/AccountingApFnbStory.vue'
 import AccountingApFnbMockupView from '../views/AccountingApFnbMockup.vue'
-
 import KnowledgeAnalyticsView from '../views/solutions/KnowledgeAnalyticsView.vue'
 import LogisticsControlTowerStoryView from '../views/solutions/LogisticsControlTowerStoryView.vue'
 import LogisticsControlTowerMockupView from '../views/solutions/LogisticsControlTowerMockupView.vue'
-
 import ProductionQualityIncidentStoryView from '../views/solutions/ProductionQualityIncidentStory.vue'
 import ProductionQualityIncidentMockupView from '../views/solutions/ProductionQualityIncidentMockup.vue'
 import CustomerComplaintRetentionStoryView from '../views/solutions/CustomerComplaintRetentionStory.vue'
 import CustomerComplaintRetentionMockupView from '../views/solutions/CustomerComplaintRetentionMockup.vue'
 
+// NEW: Pillar landing + detail views
+import PillarAgentView from '../views/pillars/PillarAgentView.vue'
+import PillarWorkflowView from '../views/pillars/PillarWorkflowView.vue'
+import PillarKnowledgeView from '../views/pillars/PillarKnowledgeView.vue'
+
+import AgentInventoryDemoView from '../views/pillars/AgentInventoryDemo.vue'
+import AgentFpaDemoView from '../views/pillars/AgentFpaDemo.vue'
+
+import WorkflowLineOrderView from '../views/pillars/WorkflowLineOrder.vue'
+import WorkflowOrderStockLoadingView from '../views/pillars/WorkflowOrderStockLoading.vue'
+import WorkflowProcurementApView from '../views/pillars/WorkflowProcurementAp.vue'
+
+// ⭐ NEW: Backoffice Agent Console (Pillar 1 screen hub)
+import Pillar1BackofficeHomeView from '../views/pillars/Pillar1BackofficeHome.vue'
+
+// ⭐ NEW: Backoffice Agent Detail Screens
+import Pillar1BackofficeFpaView from '../views/pillars/Pillar1BackofficeFpa.vue'
+import Pillar1BackofficeInventoryView from '../views/pillars/Pillar1BackofficeInventory.vue'
+
+// NEW: Pillar 3 admin
+import BackofficeConsoleView from '../views/pillars/BackofficeConsole.vue'
+
+// ⭐ NEW: Pillar 2 – Sales mockup screen
+import Pillar2SaleView from '../views/pillars/Pillar2Sale.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomeView },
@@ -41,13 +64,14 @@ const routes = [
   { path: '/about', name: 'about', component: AboutView },
   { path: '/case-studies', name: 'case-studies', component: CaseStudiesView },
   { path: '/contact', name: 'contact', component: ContactView },
+
   { path: '/plansphere', name: 'PlanSphere', component: PlanSphereView },
   { path: '/plansphere/th', name: 'plansphere-th', component: PlanSphereThView },
   { path: '/plansphere/flow', name: 'plansphere-flow', component: PlanSphereFlowView },
   { path: '/plansphere/playbook', name: 'fpa-playbook', component: FpaPlaybookView },
   { path: '/plansphere/case-studies', name: 'fpa-cases', component: FpaCaseStudiesView },
 
-  // ⬇️ ใหม่: Accounting AP F&B – Story + Mockup
+  // Accounting AP F&B
   {
     path: '/solutions/accounting-ap-fnb',
     name: 'accounting-ap-fnb',
@@ -59,24 +83,22 @@ const routes = [
     component: AccountingApFnbMockupView,
   },
 
+  // Existing solutions
   {
     path: '/solutions/knowledge-suite/mockup',
     name: 'knowledge-suite',
     component: KnowledgeAnalyticsView,
   },
-  
-{
-  path: '/solutions/logistics-control-tower',
-  name: 'logistics-control-tower',
-  component: LogisticsControlTowerStoryView,
-},
-{
-  path: '/solutions/logistics-control-tower/mockup',
-  name: 'logistics-control-tower-mockup',
-  component: LogisticsControlTowerMockupView,
-},
-
- // Production & Quality Incident Agent
+  {
+    path: '/solutions/logistics-control-tower',
+    name: 'logistics-control-tower',
+    component: LogisticsControlTowerStoryView,
+  },
+  {
+    path: '/solutions/logistics-control-tower/mockup',
+    name: 'logistics-control-tower-mockup',
+    component: LogisticsControlTowerMockupView,
+  },
   {
     path: '/solutions/production-quality-incident',
     name: 'production-quality-incident',
@@ -87,8 +109,6 @@ const routes = [
     name: 'production-quality-incident-mockup',
     component: ProductionQualityIncidentMockupView,
   },
-
-  // Customer Complaint & Retention Agent
   {
     path: '/solutions/customer-complaint-retention',
     name: 'customer-complaint-retention',
@@ -100,9 +120,72 @@ const routes = [
     component: CustomerComplaintRetentionMockupView,
   },
 
+  // Pillar landing pages
+  { path: '/pillars/agent-suite', name: 'pillar-agent', component: PillarAgentView },
+  { path: '/pillars/workflow-automation', name: 'pillar-workflow', component: PillarWorkflowView },
+  { path: '/pillars/knowledge-analytics', name: 'pillar-knowledge', component: PillarKnowledgeView },
 
+  // Pillar 1 demos
+  {
+    path: '/pillars/agent-suite/inventory',
+    name: 'agent-inventory-demo',
+    component: AgentInventoryDemoView,
+  },
+  {
+    path: '/pillars/agent-suite/fpa',
+    name: 'agent-fpa-demo',
+    component: AgentFpaDemoView,
+  },
 
-  // Deep / implementation views (for working with clients)
+  // Pillar 1 – Backoffice Screens
+  {
+    path: '/pillars/agent-suite/backoffice',
+    name: 'pillar1-backoffice-home',
+    component: Pillar1BackofficeHomeView,
+  },
+  {
+    path: '/pillars/agent-suite/backoffice/fpa',
+    name: 'pillar1-backoffice-fpa',
+    component: Pillar1BackofficeFpaView,
+  },
+  {
+    path: '/pillars/agent-suite/backoffice/inventory',
+    name: 'pillar1-backoffice-inventory',
+    component: Pillar1BackofficeInventoryView,
+  },
+
+  // Pillar 2 flows
+  {
+    path: '/pillars/workflow/line-order-sync',
+    name: 'workflow-line-order',
+    component: WorkflowLineOrderView,
+  },
+  {
+    path: '/pillars/workflow/order-stock-loading',
+    name: 'workflow-order-stock-loading',
+    component: WorkflowOrderStockLoadingView,
+  },
+  {
+    path: '/pillars/workflow/procurement-ap',
+    name: 'workflow-procurement-ap',
+    component: WorkflowProcurementApView,
+  },
+
+  // ⭐ Pillar 2 – Sales mockup screen
+  {
+    path: '/pillars/workflow/sale-mockup',
+    name: 'pillar2-sale-mockup',
+    component: Pillar2SaleView,
+  },
+
+  // Pillar 3 Backoffice
+  {
+    path: '/backoffice/console',
+    name: 'backoffice-console',
+    component: BackofficeConsoleView,
+  },
+
+  // Deep pages
   { path: '/playbook', name: 'playbook', component: PlaybookView },
   { path: '/services-deep', name: 'services-deep', component: ServicesViewDeep },
   { path: '/methodology-deep', name: 'what-we-do-deep', component: MethodologyDeep },
@@ -113,6 +196,4 @@ const router = createRouter({
   routes,
 })
 
-
 export default router
-

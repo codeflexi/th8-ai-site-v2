@@ -20,8 +20,9 @@
             <span class="text-th8-primary">30–50%</span>
             ลดความผิดพลาด
             <span class="text-th8-primary">20–40%</span>
-             ซี่งเข้าไปช่วยทำงานในขั้นตอนเดิมของทีมคุณ <span class="underline decoration-th8-primary/60">โดยไม่ต้องเปลี่ยนระบบทั้งองค์กร</span>
-            ด้วย<span class="text-th8-primary">  Agentic AI </span>
+            ซี่งเข้าไปช่วยทำงานในขั้นตอนเดิมของทีมคุณ
+            <span class="underline decoration-th8-primary/60">โดยไม่ต้องเปลี่ยนระบบทั้งองค์กร</span>
+            ด้วย<span class="text-th8-primary"> Agentic AI </span>
           </h1>
 
           <!-- HERO SUBTEXT (เวอร์ชันผู้บริหาร) -->
@@ -29,7 +30,7 @@
             เราช่วยออกแบบ
             <span class="font-semibold">“ระบบทำงานอัตโนมัติ”</span>
             ที่ต่อเข้ากับ ERP, WMS, CRM, POS, Data warehouse และ LINE OA ที่คุณใช้อยู่แล้ว
-            ให้ทีมการตลาด ขาย การเงิน ปฏิบัติการ และโลจิสติกส์ทำงานซ้ำ ๆ น้อยลง  
+            ให้ทีมการตลาด ขาย การเงิน ปฏิบัติการ และโลจิสติกส์ทำงานซ้ำ ๆ น้อยลง
             แต่ควบคุมตัวเลข คุณภาพงาน และความเสี่ยงได้มากขึ้น
           </p>
 
@@ -111,7 +112,6 @@
         <div class="relative">
           <!-- illustration: put unDraw here -->
           <div class="hidden lg:block absolute -top-10 -right-4">
-            <!-- เปลี่ยน src ให้ชี้ไปไฟล์ที่โหลดมาจาก unDraw -->
             <img
               src="../assets/illustrations/undraw_analytics_setup.svg"
               alt="Dashboard & workflow illustration"
@@ -144,20 +144,12 @@
                   Task Planner · Tool calling · RAG · Exception handling · Human-in-the-loop
                 </p>
               </div>
-              <!-- replace 🤖 ด้วย vector icon -->
               <div
                 class="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-full bg-th8-primary/10 border border-th8-primary/40"
               >
                 <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
                   <circle cx="12" cy="8" r="3.2" class="fill-current opacity-80" />
-                  <rect
-                    x="7"
-                    y="12"
-                    width="10"
-                    height="6"
-                    rx="2"
-                    class="fill-current opacity-40"
-                  />
+                  <rect x="7" y="12" width="10" height="6" rx="2" class="fill-current opacity-40" />
                   <path
                     d="M5 11h14"
                     class="stroke-current opacity-70"
@@ -186,9 +178,9 @@
             </div>
 
             <p class="text-[11px] text-slate-500">
-              เป้าหมายคือให้ Agent กลายเป็น “คนในทีม”  
-              เข้าไปเสริมกำลังให้ Workflow ของทีมคุณ โดย Agent System เชื่อม Workflow, Data และ Process เข้าด้วยกัน ให้ Agent คุยกับ ERP, WMS, CRM, POS, Data warehouse และ LINE OA
-              
+              เป้าหมายคือให้ Agent กลายเป็น “คนในทีม”
+              เข้าไปเสริมกำลังให้ Workflow ของทีมคุณ โดย Agent System เชื่อม Workflow, Data และ
+              Process เข้าด้วยกัน ให้ Agent คุยกับ ERP, WMS, CRM, POS, Data warehouse และ LINE OA
             </p>
           </div>
         </div>
@@ -202,7 +194,7 @@
         <div class="text-center space-y-3">
           <h2 class="text-2xl font-bold text-th8-text">เราทำงานกับทีมแบบไหน?</h2>
           <p class="text-sm text-th8-text/70">
-            TH8.AI ทำงานใกล้ชิดกับทีมที่ “แตะข้อมูลและระบบทุกวัน”  
+            TH8.AI ทำงานใกล้ชิดกับทีมที่ “แตะข้อมูลและระบบทุกวัน”
             ไม่ว่าจะเป็นการเงิน ปฏิบัติการ หรือโลจิสติกส์
           </p>
         </div>
@@ -274,10 +266,7 @@
                 <!-- logistics icon: simple truck -->
                 <svg viewBox="0 0 24 24" class="h-4 w-4 text-sky-600">
                   <rect x="3" y="9" width="9" height="5" rx="1" class="fill-current opacity-80" />
-                  <path
-                    d="M12 10h4l3 3v1h-7"
-                    class="fill-current opacity-60"
-                  />
+                  <path d="M12 10h4l3 3v1h-7" class="fill-current opacity-60" />
                   <circle cx="7" cy="16" r="1.6" class="fill-current" />
                   <circle cx="17" cy="16" r="1.6" class="fill-current" />
                 </svg>
@@ -297,225 +286,249 @@
       </div>
     </section>
 
-  
-<!-- 3 PILLARS / SOLUTIONS OVERVIEW (ICON UPGRADED) -->
-<section class="bg-th8-surface border-b border-th8-border py-16">
-  <div class="max-w-6xl mx-auto px-4 space-y-8">
-
-    <!-- Title -->
-    <div class="space-y-2">
-      <h2 class="text-2xl font-bold text-th8-text">3 เสาหลักของ TH8.AI Solutions</h2>
-      <p class="text-sm text-slate-600 max-w-xl">
-        เราไม่ได้ขายแค่โมเดล AI แต่ขาย “ระบบที่ทำงานช่วยคุณ ประสานงาน แต่ละระบบ” ผ่าน Agent, Workflow
-        และ Knowledge ที่ออกแบบรอบบริบทองค์กรของคุณจริง ๆ
-      </p>
-    </div>
-
-    <div class="grid md:grid-cols-3 gap-6 text-sm">
-      
-      <!-- ====================== Pillar 1 ======================= -->
-      <div class="rounded-2xl border border-th8-border bg-white p-6 shadow-sm space-y-5">
-
-        <!-- Header -->
-        <div class="flex items-center gap-3">
-          <div class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-th8-primary/10">
-            <!-- Icon: Agent Network (Large) -->
-            <svg viewBox="0 0 24 24" class="h-6 w-6 text-th8-primary">
-              <circle cx="8" cy="8" r="2.4" class="fill-current opacity-90" />
-              <circle cx="16" cy="8" r="2.4" class="fill-current opacity-70" />
-              <circle cx="12" cy="15.5" r="2.4" class="fill-current opacity-50" />
-              <path
-                d="M9.7 9.2l1.7 4.4M14.3 9.2l-1.7 4.4"
-                class="stroke-current opacity-90"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-            </svg>
-          </div>
-
-          <div>
-            <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
-              Pillar 1 · AI Agent Suite
-            </p>
-            <h3 class="font-bold text-th8-text text-base">Agent สำหรับงานหลักขององค์กร</h3>
-          </div>
+    <!-- 3 PILLARS / SOLUTIONS OVERVIEW (ICON UPGRADED + LINKS) -->
+    <section class="bg-th8-surface border-b border-th8-border py-16">
+      <div class="max-w-6xl mx-auto px-4 space-y-8">
+        <!-- Title -->
+        <div class="space-y-2">
+          <h2 class="text-2xl font-bold text-th8-text">3 เสาหลักของ TH8.AI Solutions</h2>
+          <p class="text-sm text-slate-600 max-w-xl">
+            เราไม่ได้ขายแค่โมเดล AI แต่ขาย “ระบบที่ทำงานช่วยคุณ ประสานงาน แต่ละระบบ” ผ่าน Agent,
+            Workflow และ Knowledge ที่ออกแบบรอบบริบทองค์กรของคุณจริง ๆ
+          </p>
         </div>
 
-        <!-- Content -->
-        <div class="bg-slate-50 rounded-xl border border-slate-200 p-4 space-y-3">
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-th8-primary mt-2"></span>
-            <p class="text-[13px] text-slate-700">
-              ชุดผู้ช่วย AI สำหรับ <span class="font-semibold">งานการตลาด, ขาย, การเงิน, ปฏิบัติการ และโลจิสติกส์</span>
-            </p>
-          </div>
+        <div class="grid md:grid-cols-3 gap-6 text-sm">
+          <!-- Pillar 1 pillar-agent-->
+          <RouterLink
+            :to="{ name: 'pillar1-backoffice-home' }"
+            class="rounded-2xl border border-th8-border bg-white p-6 shadow-sm space-y-5 hover:border-th8-primary hover:shadow-md transition block"
+          >
+            <!-- Header -->
+            <div class="flex items-center gap-3">
+              <div class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-th8-primary/10">
+                <!-- Icon: Agent Network (Large) -->
+                <svg viewBox="0 0 24 24" class="h-6 w-6 text-th8-primary">
+                  <circle cx="8" cy="8" r="2.4" class="fill-current opacity-90" />
+                  <circle cx="16" cy="8" r="2.4" class="fill-current opacity-70" />
+                  <circle cx="12" cy="15.5" r="2.4" class="fill-current opacity-50" />
+                  <path
+                    d="M9.7 9.2l1.7 4.4M14.3 9.2l-1.7 4.4"
+                    class="stroke-current opacity-90"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
 
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-th8-primary mt-2"></span>
-            <p class="text-[13px] text-slate-700">
-              FP&A Copilot, Inventory &amp; Replenishment, Route Planner, Document QC
-            </p>
-          </div>
+              <div>
+                <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                  Pillar 1 · AI Agent Suite
+                </p>
+                <h3 class="font-bold text-th8-text text-base">Agent สำหรับงานหลักขององค์กร</h3>
+              </div>
+            </div>
 
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-th8-primary mt-2"></span>
-            <p class="text-[13px] text-slate-700">
-              ออกแบบจาก <span class="font-semibold">Use case จริงในองค์กรไทย</span>
-            </p>
-          </div>
+            <!-- Content bullets -->
+            <div class="bg-slate-50 rounded-xl border border-slate-200 p-4 space-y-3">
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-th8-primary mt-2"></span>
+                <p class="text-[13px] text-slate-700">
+                  ชุดผู้ช่วย AI สำหรับ
+                  <span class="font-semibold">งานการตลาด, ขาย, การเงิน, ปฏิบัติการ และโลจิสติกส์</span>
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-th8-primary mt-2"></span>
+                <p class="text-[13px] text-slate-700">
+                  FP&amp;A Copilot, Inventory &amp; Replenishment, Route Planner, Document QC
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-th8-primary mt-2"></span>
+                <p class="text-[13px] text-slate-700">
+                  ออกแบบจาก <span class="font-semibold">Use case จริงในองค์กรไทย</span>
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-th8-primary mt-2"></span>
+                <p class="text-[13px] text-slate-700">
+                  ลดงานซ้ำ ๆ และเตรียมข้อมูลพร้อมสำหรับการตัดสินใจของผู้บริหาร
+                </p>
+              </div>
+            </div>
 
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-th8-primary mt-2"></span>
-            <p class="text-[13px] text-slate-700">
-              ลดงานซ้ำ ๆ และเตรียมข้อมูลพร้อมสำหรับการตัดสินใจของผู้บริหาร
-            </p>
-          </div>
+            <!-- Footer CTA -->
+            <div class="flex items-center justify-between pt-2 text-[12px] text-slate-600">
+              <span>ดูตัวอย่าง Inventory / FP&amp;A Agent</span>
+              <span class="inline-flex items-center gap-1 text-th8-primary font-medium">
+                ดูรายละเอียด
+                <span class="text-[14px]">⟶</span>
+              </span>
+            </div>
+          </RouterLink>
+
+          <!-- Pillar 2 -->
+          <RouterLink
+            :to="{ name: 'pillar-workflow' }"
+            class="rounded-2xl border border-th8-border bg-white p-6 shadow-sm space-y-5 hover:border-emerald-600 hover:shadow-md transition block"
+          >
+            <!-- Header -->
+            <div class="flex items-center gap-3">
+              <div class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500/10">
+                <!-- Icon: Workflow / Integration (Large) -->
+                <svg viewBox="0 0 24 24" class="h-6 w-6 text-emerald-700">
+                  <rect x="4" y="5" width="7" height="4.5" rx="1.2" class="fill-current opacity-85" />
+                  <rect x="14" y="10" width="7" height="4.5" rx="1.2" class="fill-current opacity-55" />
+                  <rect x="4" y="15" width="7" height="4.5" rx="1.2" class="fill-current opacity-40" />
+                  <path
+                    d="M11 7h2.5a2 2 0 0 1 2 2v1.2M11 17h2.5a2 2 0 0 0 2-2v-1.2"
+                    class="stroke-current opacity-90"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M16 11.2l1.6 1.7 1.6-1.7"
+                    class="stroke-current opacity-90"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <div>
+                <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                  Pillar 2 · AI Workflow Automation
+                </p>
+                <h3 class="font-bold text-th8-text text-base">เชื่อม Agent เข้ากับระบบเดิมของคุณ</h3>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div class="bg-slate-50 rounded-xl border border-slate-200 p-4 space-y-3">
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-emerald-600 mt-2"></span>
+                <p class="text-[13px] text-slate-700">
+                  เชื่อมระบบ ERP, WMS, CRM, Sheet, Email, LINE OA
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-emerald-600 mt-2"></span>
+                <p class="text-[13px] text-slate-700">
+                  ทำให้ระบบ “<span class="font-semibold">คุยกันเอง</span>” ส่งข้อมูลให้อัตโนมัติ
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-emerald-600 mt-2"></span>
+                <p class="text-[13px] text-slate-700">ลดคีย์มือ ลดเช็กข้ามระบบ ลดเคสตกหล่น</p>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-emerald-600 mt-2"></span>
+                <p class="text-[13px] text-slate-700">
+                  เห็นสถานะงานปลายทางชัดขึ้นทั้งทีมหน้าและหลังบ้าน
+                </p>
+              </div>
+            </div>
+
+            <!-- Footer CTA -->
+            <div class="flex items-center justify-between pt-2 text-[12px] text-slate-600">
+              <span>ดู Flow ตัวอย่าง LINE → ERP / Order → Loading</span>
+              <span class="inline-flex items-center gap-1 text-emerald-700 font-medium">
+                ดูรายละเอียด
+                <span class="text-[14px]">⟶</span>
+              </span>
+            </div>
+          </RouterLink>
+
+          <!-- Pillar 3 -->
+          <RouterLink
+            :to="{ name: 'pillar-knowledge' }"
+            class="rounded-2xl border border-th8-border bg-white p-6 shadow-sm space-y-5 hover:border-sky-600 hover:shadow-md transition block"
+          >
+            <!-- Header -->
+            <div class="flex items-center gap-3">
+              <div class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-sky-500/10">
+                <!-- Icon: Knowledge + Analytics (Large) -->
+                <svg viewBox="0 0 24 24" class="h-6 w-6 text-sky-700">
+                  <path
+                    d="M6.5 7h6.2a2 2 0 0 1 2 2v9H8.3a2 2 0 0 1-1.8-2V7z"
+                    class="fill-current opacity-85"
+                  />
+                  <path
+                    d="M6.5 7a2 2 0 0 0-2 2v9"
+                    class="stroke-current opacity-70"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M11 10h3.2M11 12.8h2.2"
+                    class="stroke-current opacity-95"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                  <rect
+                    x="14"
+                    y="9.5"
+                    width="5"
+                    height="6.5"
+                    rx="1.2"
+                    class="fill-current opacity-30"
+                  />
+                  <path
+                    d="M14.8 13.4l1.2-1.4 1 0.8 1.1-1.6"
+                    class="stroke-current opacity-95"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <div>
+                <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                  Pillar 3 · AI Knowledge &amp; Analytics
+                </p>
+                <h3 class="font-bold text-th8-text text-base">เปลี่ยนเอกสารกองใหญ่ให้ใช้การได้จริง</h3>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div class="bg-slate-50 rounded-xl border border-slate-200 p-4 space-y-3">
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-sky-600 mt-2"></span>
+                <p class="text-[13px] text-slate-700">จัดระเบียบเอกสาร สัญญา SOP และรายงาน</p>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-sky-600 mt-2"></span>
+                <p class="text-[13px] text-slate-700">
+                  เปลี่ยนเป็นฐานความรู้ + Dashboard ที่ค้นหา–ถามตอบได้
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-sky-600 mt-2"></span>
+                <p class="text-[13px] text-slate-700">
+                  ทั้ง AI และผู้บริหารเห็นภาพเดียวกัน ใช้ข้อมูลจริงในการตัดสินใจ
+                </p>
+              </div>
+              <div class="flex items-start gap-2">
+                <span class="h-2 w-2 rounded-full bg-sky-600 mt-2"></span>
+                <p class="text-[13px] text-slate-700">ลดพึ่งสไลด์/ไฟล์กระจัดกระจาย</p>
+              </div>
+            </div>
+
+            <!-- Footer CTA -->
+            <div class="flex items-center justify-between pt-2 text-[12px] text-slate-600">
+              <span>ดู Knowledge Copilot / Admin Console</span>
+              <span class="inline-flex items-center gap-1 text-sky-700 font-medium">
+                ดูรายละเอียด
+                <span class="text-[14px]">⟶</span>
+              </span>
+            </div>
+          </RouterLink>
         </div>
-
       </div>
-
-      <!-- ====================== Pillar 2 ======================= -->
-      <div class="rounded-2xl border border-th8-border bg-white p-6 shadow-sm space-y-5">
-
-        <!-- Header -->
-        <div class="flex items-center gap-3">
-          <div class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500/10">
-            <!-- Icon: Workflow / Integration (Large) -->
-            <svg viewBox="0 0 24 24" class="h-6 w-6 text-emerald-700">
-              <rect x="4" y="5" width="7" height="4.5" rx="1.2" class="fill-current opacity-85" />
-              <rect x="14" y="10" width="7" height="4.5" rx="1.2" class="fill-current opacity-55" />
-              <rect x="4" y="15" width="7" height="4.5" rx="1.2" class="fill-current opacity-40" />
-              <path
-                d="M11 7h2.5a2 2 0 0 1 2 2v1.2M11 17h2.5a2 2 0 0 0 2-2v-1.2"
-                class="stroke-current opacity-90"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-              <path
-                d="M16 11.2l1.6 1.7 1.6-1.7"
-                class="stroke-current opacity-90"
-                stroke-width="1.4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </div>
-
-          <div>
-            <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
-              Pillar 2 · AI Workflow Automation
-            </p>
-            <h3 class="font-bold text-th8-text text-base">เชื่อม Agent เข้ากับระบบเดิมของคุณ</h3>
-          </div>
-        </div>
-
-        <!-- Content -->
-        <div class="bg-slate-50 rounded-xl border border-slate-200 p-4 space-y-3">
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-emerald-600 mt-2"></span>
-            <p class="text-[13px] text-slate-700">เชื่อมระบบ ERP, WMS, CRM, Sheet, Email, LINE OA</p>
-          </div>
-
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-emerald-600 mt-2"></span>
-            <p class="text-[13px] text-slate-700">
-              ทำให้ระบบ “<span class="font-semibold">คุยกันเอง</span>” ส่งข้อมูลให้อัตโนมัติ
-            </p>
-          </div>
-
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-emerald-600 mt-2"></span>
-            <p class="text-[13px] text-slate-700">ลดคีย์มือ ลดเช็กข้ามระบบ ลดเคสตกหล่น</p>
-          </div>
-
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-emerald-600 mt-2"></span>
-            <p class="text-[13px] text-slate-700">
-              เห็นสถานะงานปลายทางชัดขึ้นทั้งทีมหน้าและหลังบ้าน
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- ====================== Pillar 3 ======================= -->
-      <div class="rounded-2xl border border-th8-border bg-white p-6 shadow-sm space-y-5">
-
-        <!-- Header -->
-        <div class="flex items-center gap-3">
-          <div class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-sky-500/10">
-            <!-- Icon: Knowledge + Analytics (Large) -->
-            <svg viewBox="0 0 24 24" class="h-6 w-6 text-sky-700">
-              <path
-                d="M6.5 7h6.2a2 2 0 0 1 2 2v9H8.3a2 2 0 0 1-1.8-2V7z"
-                class="fill-current opacity-85"
-              />
-              <path
-                d="M6.5 7a2 2 0 0 0-2 2v9"
-                class="stroke-current opacity-70"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-              <path
-                d="M11 10h3.2M11 12.8h2.2"
-                class="stroke-current opacity-95"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-              <rect x="14" y="9.5" width="5" height="6.5" rx="1.2" class="fill-current opacity-30" />
-              <path
-                d="M14.8 13.4l1.2-1.4 1 0.8 1.1-1.6"
-                class="stroke-current opacity-95"
-                stroke-width="1.4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </div>
-
-          <div>
-            <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
-              Pillar 3 · AI Knowledge &amp; Analytics
-            </p>
-            <h3 class="font-bold text-th8-text text-base">เปลี่ยนเอกสารกองใหญ่ให้ใช้การได้จริง</h3>
-          </div>
-        </div>
-
-        <!-- Content -->
-        <div class="bg-slate-50 rounded-xl border border-slate-200 p-4 space-y-3">
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-sky-600 mt-2"></span>
-            <p class="text-[13px] text-slate-700">จัดระเบียบเอกสาร สัญญา SOP และรายงาน</p>
-          </div>
-
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-sky-600 mt-2"></span>
-            <p class="text-[13px] text-slate-700">
-              เปลี่ยนเป็นฐานความรู้ + Dashboard ที่ค้นหา–ถามตอบได้
-            </p>
-          </div>
-
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-sky-600 mt-2"></span>
-            <p class="text-[13px] text-slate-700">
-              ทั้ง AI และผู้บริหารเห็นภาพเดียวกัน ใช้ข้อมูลจริงในการตัดสินใจ
-            </p>
-          </div>
-
-          <div class="flex items-start gap-2">
-            <span class="h-2 w-2 rounded-full bg-sky-600 mt-2"></span>
-            <p class="text-[13px] text-slate-700">ลดพึ่งสไลด์/ไฟล์กระจัดกระจาย</p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
+    </section>
 
     <!-- KPI / TRUST SECTION -->
     <section class="bg-slate-50 border-b border-th8-border py-16">
@@ -635,7 +648,7 @@
               </div>
               <h3 class="font-semibold text-th8-text">คุยโจทย์ &amp; วาดภาพรวม</h3>
               <p class="text-[13px] text-slate-700">
-                เข้าใจบริบทธุรกิจ, ระบบที่ใช้อยู่, KPI ที่อยากเปลี่ยน  
+                เข้าใจบริบทธุรกิจ, ระบบที่ใช้อยู่, KPI ที่อยากเปลี่ยน
                 แล้วช่วยกันเลือก Use case แรกที่ Impact สูง
               </p>
             </div>
@@ -650,7 +663,7 @@
               </div>
               <h3 class="font-semibold text-th8-text">Prototype &amp; Pilot</h3>
               <p class="text-[13px] text-slate-700">
-                สร้าง Prototype ที่แตะข้อมูลจริงและ Workflow จริง  
+                สร้าง Prototype ที่แตะข้อมูลจริงและ Workflow จริง
                 ให้ทีมลองใช้ พร้อมเก็บ Feedback, Time saved, Error
               </p>
             </div>
@@ -665,7 +678,7 @@
               </div>
               <h3 class="font-semibold text-th8-text">Scale &amp; Roll-out</h3>
               <p class="text-[13px] text-slate-700">
-                ขยายจาก 1 ทีม → ทั้งฝ่าย หรือหลายสาขา  
+                ขยายจาก 1 ทีม → ทั้งฝ่าย หรือหลายสาขา
                 พร้อม Governance, Training และ Monitoring
               </p>
             </div>
@@ -677,7 +690,6 @@
           <div
             class="rounded-2xl border border-th8-border bg-th8-surface p-8 shadow-sm space-y-4 text-center relative overflow-hidden"
           >
-            <!-- background illustration -->
             <div class="hidden md:block absolute -right-6 -bottom-4 opacity-20">
               <img
                 src="../assets/illustrations/undraw_agreement.svg"
@@ -691,7 +703,7 @@
             </p>
             <h3 class="text-lg font-semibold text-th8-text">อยากเห็นภาพเชิงเทคนิคมากขึ้น?</h3>
             <p class="text-sm text-th8-text/80 max-w-2xl mx-auto">
-              Methodology แบบเต็ม, 7-layer framework, Diagram และตัวอย่าง Implementation  
+              Methodology แบบเต็ม, 7-layer framework, Diagram และตัวอย่าง Implementation
               รวบรวมไว้ที่หน้า Playbook เพื่อใช้คุยเชิงลึกกับทีมภายในของคุณ
             </p>
             <RouterLink

@@ -41,7 +41,7 @@
         <li>
           <RouterLink
             :to="{ name: 'services' }"
-            class="hover:text-th8-primary text-th8-text font-semibold inline-flex items-center gap-1"
+            class="hover:text-th8-primary text-th8-text inline-flex items-center gap-1"
             
           >
             Solutions & Product Suite
@@ -111,7 +111,7 @@
         </RouterLink>
         <RouterLink
           :to="{ name: 'services' }"
-           class="block py-1 text-th8-text font-semibold hover:text-th8-primary"
+           class="block py-1 text-th8-text  hover:text-th8-primary"
           
           @click="open = false"
         >

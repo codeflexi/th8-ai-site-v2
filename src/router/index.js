@@ -65,6 +65,9 @@ import PricingLogisticsView from '../views/pricing/PricingLogisticsView.vue'
 import PricingFnbView from '../views/pricing/PricingFnbView.vue'
 import PricingBankingView from '../views/pricing/PricingBankingView.vue'
 
+import AgenticStackView from '../views/AgenticStackView.vue'
+
+
 const routes = [
   { path: '/', name: 'home', component: HomeView },
   { path: '/services', name: 'services', component: ServicesView },
@@ -222,6 +225,8 @@ const routes = [
   { path: '/playbook', name: 'playbook', component: PlaybookView },
   { path: '/services-deep', name: 'services-deep', component: ServicesViewDeep },
   { path: '/methodology-deep', name: 'what-we-do-deep', component: MethodologyDeep },
+
+  { path: '/agentic-stack', name: 'agentic-stack', component: AgenticStackView }
 ]
 
 const router = createRouter({

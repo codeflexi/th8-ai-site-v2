@@ -109,81 +109,96 @@
           </div>
         </div>
 
-        <!-- Right: Card + Illustration -->
-        <div class="relative">
-          <!-- illustration: put unDraw here -->
-          <div class="hidden lg:block absolute -top-10 -right-4">
-            <img
-              src="../assets/illustrations/undraw_analytics_setup.svg"
-              alt="Dashboard & workflow illustration"
-              class="w-40 h-auto drop-shadow-md"
-            />
-          </div>
+      <!-- Right: Card + Illustration -->
+<div class="relative">
+  <!-- illustration: put unDraw here -->
+  <div class="hidden lg:block absolute -top-10 -right-4">
+    <img
+      src="../assets/illustrations/undraw_analytics_setup.svg"
+      alt="Dashboard & workflow illustration"
+      class="w-40 h-auto drop-shadow-md"
+    />
+  </div>
 
-          <div class="absolute -inset-5 rounded-3xl bg-th8-primary/5 blur-2xl"></div>
-          <div
-            class="relative rounded-3xl border border-th8-border bg-white p-5 lg:p-6 shadow-md text-[11px] space-y-3"
-          >
-            <div class="flex items-center justify-between text-slate-500 mb-1">
-              <span class="font-semibold text-th8-text">TH8 Agentic Flow</span>
-              <span>Data → Agent → Workflow → UX</span>
-            </div>
+  <!-- ทำทั้งการ์ดเป็นลิงก์ไปหน้า Agentic Stack -->
+  <RouterLink
+    :to="{ name: 'agentic-stack' }"
+    class="block group"
+  >
+    <div class="absolute -inset-5 rounded-3xl bg-th8-primary/5 blur-2xl group-hover:bg-th8-primary/10 transition"></div>
 
-            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-3">
-              <p class="font-semibold text-slate-800 mb-1">Business Workflow</p>
-              <p class="text-slate-500">
-                PO → Invoice → Stock<br />
-                FP&amp;A → Scenario<br />
-                Order → Picking → Delivery
-              </p>
-            </div>
+    <div
+      class="relative rounded-3xl border border-th8-border bg-white p-5 lg:p-6 shadow-md text-[11px] space-y-3 group-hover:shadow-lg group-hover:border-th8-primary transition"
+    >
+      <div class="flex items-center justify-between text-slate-500 mb-1">
+        <span class="font-semibold text-th8-text">TH8 Agentic Flow</span>
+        <span>Data → Agent → Workflow → UX</span>
+      </div>
 
-            <div class="rounded-2xl border border-th8-border bg-red-50/70 p-3 flex items-center gap-3">
-              <div>
-                <p class="font-semibold text-th8-text mb-1">TH8 Agent Layer</p>
-                <p class="text-th8-text/80">
-                  Task Planner · Tool calling · RAG · Exception handling · Human-in-the-loop
-                </p>
-              </div>
-              <div
-                class="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-full bg-th8-primary/10 border border-th8-primary/40"
-              >
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
-                  <circle cx="12" cy="8" r="3.2" class="fill-current opacity-80" />
-                  <rect x="7" y="12" width="10" height="6" rx="2" class="fill-current opacity-40" />
-                  <path
-                    d="M5 11h14"
-                    class="stroke-current opacity-70"
-                    stroke-width="1.3"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </div>
-            </div>
+      <div class="rounded-2xl border border-slate-200 bg-slate-50 p-3">
+        <p class="font-semibold text-slate-800 mb-1">Business Workflow</p>
+        <p class="text-slate-500">
+          PO → Invoice → Stock<br />
+          FP&amp;A → Scenario<br />
+          Order → Picking → Delivery
+        </p>
+      </div>
 
-            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-3">
-              <p class="font-semibold text-slate-800 mb-1">Systems &amp; Data</p>
-              <p class="text-slate-500">
-                ERP / WMS / CRM<br />
-                Data warehouse / DB<br />
-                SOP, Policy, Contract
-              </p>
-            </div>
-
-            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-3">
-              <p class="font-semibold text-slate-800 mb-1">Interface Layer</p>
-              <p class="text-slate-500">
-                LINE OA · Web portal · API · Google Sheet · Email
-              </p>
-            </div>
-
-            <p class="text-[11px] text-slate-500">
-              เป้าหมายคือให้ Agent กลายเป็น “คนในทีม”
-              เข้าไปเสริมกำลังให้ Workflow ของทีมคุณ โดย Agent System เชื่อม Workflow, Data และ
-              Process เข้าด้วยกัน ให้ Agent คุยกับ ERP, WMS, CRM, POS, Data warehouse และ LINE OA
-            </p>
-          </div>
+      <div class="rounded-2xl border border-th8-border bg-red-50/70 p-3 flex items-center gap-3">
+        <div>
+          <p class="font-semibold text-th8-text mb-1">TH8 Agent Layer</p>
+          <p class="text-th8-text/80">
+            Task Planner · Tool calling · RAG · Exception handling · Human-in-the-loop
+          </p>
         </div>
+        <div
+          class="ml-auto inline-flex h-8 w-8 items-center justify-center rounded-full bg-th8-primary/10 border border-th8-primary/40"
+        >
+          <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
+            <circle cx="12" cy="8" r="3.2" class="fill-current opacity-80" />
+            <rect x="7" y="12" width="10" height="6" rx="2" class="fill-current opacity-40" />
+            <path
+              d="M5 11h14"
+              class="stroke-current opacity-70"
+              stroke-width="1.3"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="rounded-2xl border border-slate-200 bg-slate-50 p-3">
+        <p class="font-semibold text-slate-800 mb-1">Systems &amp; Data</p>
+        <p class="text-slate-500">
+          ERP / WMS / CRM<br />
+          Data warehouse / DB<br />
+          SOP, Policy, Contract
+        </p>
+      </div>
+
+      <div class="rounded-2xl border border-slate-200 bg-slate-50 p-3">
+        <p class="font-semibold text-slate-800 mb-1">Interface Layer</p>
+        <p class="text-slate-500">
+          LINE OA · Web portal · API · Google Sheet · Email
+        </p>
+      </div>
+
+      <p class="text-[11px] text-slate-500">
+        เป้าหมายคือให้ Agent กลายเป็น “คนในทีม”
+        เข้าไปเสริมกำลังให้ Workflow ของทีมคุณ โดย Agent System เชื่อม Workflow, Data และ
+        Process เข้าด้วยกัน ให้ Agent คุยกับ ERP, WMS, CRM, POS, Data warehouse และ LINE OA
+      </p>
+
+      <!-- mini CTA บอกว่ากดได้ -->
+      <p class="text-[11px] text-th8-primary font-medium flex items-center gap-1 pt-1">
+        ดูรายละเอียด TH8 Agentic Stack &amp; Frameworks
+        <span class="text-xs">⟶</span>
+      </p>
+    </div>
+  </RouterLink>
+</div>
+
+
       </div>
     </section>
 

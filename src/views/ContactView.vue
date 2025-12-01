@@ -7,6 +7,17 @@
         ถ้าคุณมีโจทย์เกี่ยวกับ Finance, Operations, Logistics, Warehouse หรืออยากเริ่มทำ Agentic AI  
         สามารถส่งบริบทและสิ่งที่อยากเปลี่ยนแปลงมาหาเราได้เลย
       </p>
+         <div class="flex flex-wrap gap-3">
+          <a
+            href="https://lin.ee/4YAf9fp"
+            target="_blank"
+            class="inline-flex items-center justify-center rounded-full border border-th8-border px-4 py-2 text-xs font-medium  bg-green-500 text-th8-text text-white  hover:bg-slate-30"
+          >
+         
+            แอด LINE สอบถาม
+          </a>
+        
+        </div>
     </section>
 
     <!-- Two-column layout -->

@@ -239,7 +239,7 @@
               <h3 class="font-semibold text-th8-text">AI Knowledge Base &amp; Document Copilot</h3>
             </div>
             <RouterLink
-              :to="{ name: 'financial' }"
+              :to="{ name: 'pillar-knowledge' }"
               class="text-[11px] font-semibold text-th8-primary hover:underline"
             >
               รายละเอียด →

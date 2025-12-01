@@ -20,9 +20,10 @@
             <span class="text-th8-primary">30–50%</span>
             ลดความผิดพลาด
             <span class="text-th8-primary">20–40%</span>
-            ซี่งเข้าไปช่วยทำงานในขั้นตอนเดิมของทีมคุณ
-            <span class="underline decoration-th8-primary/60">โดยไม่ต้องเปลี่ยนระบบทั้งองค์กร</span>
             ด้วย<span class="text-th8-primary"> Agentic AI </span>
+            ที่เข้าไปช่วย ทำงานในขั้นตอนเดิมของทีมคุณ
+            <span class="underline decoration-th8-primary/60">โดยไม่ต้องเปลี่ยนระบบทั้งองค์กร</span>
+            
           </h1>
 
           <!-- HERO SUBTEXT (เวอร์ชันผู้บริหาร) -->
@@ -186,111 +187,12 @@
       </div>
     </section>
 
-    <!-- KEY SEGMENTS -->
-    <section class="bg-white border-b border-th8-border py-16">
-      <div class="max-w-6xl mx-auto px-4 space-y-10">
-        <!-- Title -->
-        <div class="text-center space-y-3">
-          <h2 class="text-2xl font-bold text-th8-text">เราทำงานกับทีมแบบไหน?</h2>
-          <p class="text-sm text-th8-text/70">
-            TH8.AI ทำงานใกล้ชิดกับทีมที่ “แตะข้อมูลและระบบทุกวัน”
-            ไม่ว่าจะเป็นการเงิน ปฏิบัติการ หรือโลจิสติกส์
-          </p>
-        </div>
-
-        <!-- 3 Columns -->
-        <div class="grid md:grid-cols-3 gap-6">
-          <!-- Finance -->
-          <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
-            <div class="flex items-center gap-3 mb-3">
-              <div
-                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-th8-primary/10"
-              >
-                <!-- finance icon -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
-                  <path
-                    d="M4 18h16"
-                    class="stroke-current opacity-50"
-                    stroke-width="1.3"
-                    stroke-linecap="round"
-                  />
-                  <rect x="5" y="10" width="3" height="6" class="fill-current opacity-40" />
-                  <rect x="10.5" y="8" width="3" height="8" class="fill-current opacity-70" />
-                  <rect x="16" y="6" width="3" height="10" class="fill-current" />
-                </svg>
-              </div>
-              <h3 class="font-semibold text-th8-text">Finance &amp; FP&amp;A</h3>
-            </div>
-            <p class="text-sm text-th8-text/70 mb-4">
-              ลดเวลาปิดงบ วิเคราะห์ตัวเลขอัตโนมัติ เตรียม Insight ให้ผู้บริหาร
-            </p>
-            <ul class="text-sm text-slate-600 space-y-1">
-              <li>• Time saved 30–50%</li>
-              <li>• ลด Human-error จากไฟล์ Excel / Sheet</li>
-              <li>• FP&amp;A Copilot / Scenario Engine</li>
-            </ul>
-          </div>
-
-          <!-- Ops -->
-          <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
-            <div class="flex items-center gap-3 mb-3">
-              <div
-                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10"
-              >
-                <!-- ops icon: boxes -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-emerald-600">
-                  <rect x="4" y="5" width="7" height="6" rx="1" class="fill-current opacity-70" />
-                  <rect x="13" y="7" width="7" height="6" rx="1" class="fill-current opacity-40" />
-                  <rect x="8" y="13" width="8" height="6" rx="1" class="fill-current opacity-60" />
-                </svg>
-              </div>
-              <h3 class="font-semibold text-th8-text">Operations &amp; Inventory</h3>
-            </div>
-            <p class="text-sm text-th8-text/70 mb-4">
-              เชื่อมระบบเดิม + จัดการ Order, Stock, Exception แบบอัตโนมัติ
-            </p>
-            <ul class="text-sm text-slate-600 space-y-1">
-              <li>• Error ลดลง 20–40%</li>
-              <li>• Inventory Health &amp; Replenishment</li>
-              <li>• Order Intake &amp; Validation Agent</li>
-            </ul>
-          </div>
-
-          <!-- Logistics -->
-          <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
-            <div class="flex items-center gap-3 mb-3">
-              <div
-                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-sky-500/10"
-              >
-                <!-- logistics icon: simple truck -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-sky-600">
-                  <rect x="3" y="9" width="9" height="5" rx="1" class="fill-current opacity-80" />
-                  <path d="M12 10h4l3 3v1h-7" class="fill-current opacity-60" />
-                  <circle cx="7" cy="16" r="1.6" class="fill-current" />
-                  <circle cx="17" cy="16" r="1.6" class="fill-current" />
-                </svg>
-              </div>
-              <h3 class="font-semibold text-th8-text">Logistics &amp; Delivery</h3>
-            </div>
-            <p class="text-sm text-th8-text/70 mb-4">
-              Route planning, Dispatch, Follow-up และ Exception ช่วยลดภาระทีมขนส่ง
-            </p>
-            <ul class="text-sm text-slate-600 space-y-1">
-              <li>• ลดค่าน้ำมัน / เพิ่ม Drop per trip</li>
-              <li>• Route Planner &amp; Exception Engine</li>
-              <li>• Delivery Reconciliation</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 3 PILLARS / SOLUTIONS OVERVIEW (ICON UPGRADED + LINKS) -->
+     <!-- 3 PILLARS / SOLUTIONS OVERVIEW (ICON UPGRADED + LINKS) -->
     <section class="bg-th8-surface border-b border-th8-border py-16">
       <div class="max-w-6xl mx-auto px-4 space-y-8">
         <!-- Title -->
         <div class="space-y-2">
-          <h2 class="text-2xl font-bold text-th8-text">3 เสาหลักของ TH8.AI Solutions</h2>
+          <h2 class="text-2xl font-bold text-th8-text">3 เสาหลักของ TH8.AI Solutions & Product Suite</h2>
           <p class="text-sm text-slate-600 max-w-xl">
             เราไม่ได้ขายแค่โมเดล AI แต่ขาย “ระบบที่ทำงานช่วยคุณ ประสานงาน แต่ละระบบ” ผ่าน Agent,
             Workflow และ Knowledge ที่ออกแบบรอบบริบทองค์กรของคุณจริง ๆ
@@ -529,6 +431,107 @@
       </div>
     </section>
 
+    <!-- KEY SEGMENTS -->
+    <section class="bg-white border-b border-th8-border py-16">
+      <div class="max-w-6xl mx-auto px-4 space-y-10">
+        <!-- Title -->
+        <div class="text-center space-y-3">
+          <h2 class="text-2xl font-bold text-th8-text">เราทำงานกับทีมแบบไหน?</h2>
+          <p class="text-sm text-th8-text/70">
+            TH8.AI ทำงานใกล้ชิดกับทีมที่ “แตะข้อมูลและระบบทุกวัน”
+            ไม่ว่าจะเป็นการเงิน ปฏิบัติการ หรือโลจิสติกส์
+          </p>
+        </div>
+
+        <!-- 3 Columns -->
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Finance -->
+          <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
+            <div class="flex items-center gap-3 mb-3">
+              <div
+                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-th8-primary/10"
+              >
+                <!-- finance icon -->
+                <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
+                  <path
+                    d="M4 18h16"
+                    class="stroke-current opacity-50"
+                    stroke-width="1.3"
+                    stroke-linecap="round"
+                  />
+                  <rect x="5" y="10" width="3" height="6" class="fill-current opacity-40" />
+                  <rect x="10.5" y="8" width="3" height="8" class="fill-current opacity-70" />
+                  <rect x="16" y="6" width="3" height="10" class="fill-current" />
+                </svg>
+              </div>
+              <h3 class="font-semibold text-th8-text">Finance &amp; FP&amp;A</h3>
+            </div>
+            <p class="text-sm text-th8-text/70 mb-4">
+              ลดเวลาปิดงบ วิเคราะห์ตัวเลขอัตโนมัติ เตรียม Insight ให้ผู้บริหาร
+            </p>
+            <ul class="text-sm text-slate-600 space-y-1">
+              <li>• Time saved 30–50%</li>
+              <li>• ลด Human-error จากไฟล์ Excel / Sheet</li>
+              <li>• FP&amp;A Copilot / Scenario Engine</li>
+            </ul>
+          </div>
+
+          <!-- Ops -->
+          <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
+            <div class="flex items-center gap-3 mb-3">
+              <div
+                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10"
+              >
+                <!-- ops icon: boxes -->
+                <svg viewBox="0 0 24 24" class="h-4 w-4 text-emerald-600">
+                  <rect x="4" y="5" width="7" height="6" rx="1" class="fill-current opacity-70" />
+                  <rect x="13" y="7" width="7" height="6" rx="1" class="fill-current opacity-40" />
+                  <rect x="8" y="13" width="8" height="6" rx="1" class="fill-current opacity-60" />
+                </svg>
+              </div>
+              <h3 class="font-semibold text-th8-text">Operations &amp; Inventory</h3>
+            </div>
+            <p class="text-sm text-th8-text/70 mb-4">
+              เชื่อมระบบเดิม + จัดการ Order, Stock, Exception แบบอัตโนมัติ
+            </p>
+            <ul class="text-sm text-slate-600 space-y-1">
+              <li>• Error ลดลง 20–40%</li>
+              <li>• Inventory Health &amp; Replenishment</li>
+              <li>• Order Intake &amp; Validation Agent</li>
+            </ul>
+          </div>
+
+          <!-- Logistics -->
+          <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
+            <div class="flex items-center gap-3 mb-3">
+              <div
+                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-sky-500/10"
+              >
+                <!-- logistics icon: simple truck -->
+                <svg viewBox="0 0 24 24" class="h-4 w-4 text-sky-600">
+                  <rect x="3" y="9" width="9" height="5" rx="1" class="fill-current opacity-80" />
+                  <path d="M12 10h4l3 3v1h-7" class="fill-current opacity-60" />
+                  <circle cx="7" cy="16" r="1.6" class="fill-current" />
+                  <circle cx="17" cy="16" r="1.6" class="fill-current" />
+                </svg>
+              </div>
+              <h3 class="font-semibold text-th8-text">Logistics &amp; Delivery</h3>
+            </div>
+            <p class="text-sm text-th8-text/70 mb-4">
+              Route planning, Dispatch, Follow-up และ Exception ช่วยลดภาระทีมขนส่ง
+            </p>
+            <ul class="text-sm text-slate-600 space-y-1">
+              <li>• ลดค่าน้ำมัน / เพิ่ม Drop per trip</li>
+              <li>• Route Planner &amp; Exception Engine</li>
+              <li>• Delivery Reconciliation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
     <!-- KPI / TRUST SECTION -->
     <section class="bg-slate-50 border-b border-th8-border py-16">
       <div class="max-w-6xl mx-auto px-4 space-y-8">
@@ -731,9 +734,9 @@
         </div>
         <div class="flex flex-wrap gap-3">
           <a
-            href="https://line.me"
+            href="https://lin.ee/4YAf9fp"
             target="_blank"
-            class="inline-flex items-center justify-center rounded-full border border-th8-border px-4 py-2 text-xs font-medium text-th8-text hover:bg-slate-50"
+          class="inline-flex items-center justify-center rounded-full border border-th8-border px-4 py-2 text-xs font-medium  bg-green-500 text-th8-text text-white  hover:bg-slate-30"
           >
             แอด LINE สอบถาม
           </a>

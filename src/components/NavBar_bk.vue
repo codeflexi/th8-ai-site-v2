@@ -41,19 +41,18 @@
         <li>
           <RouterLink
             :to="{ name: 'services' }"
-            class="hover:text-th8-primary text-th8-text font-semibold inline-flex items-center gap-1"
-            
+            class="hover:text-th8-primary text-th8-text/80"
           >
             Solutions & Product Suite
           </RouterLink>
         </li>
 <li>
   <RouterLink
-    :to="{ name: 'pricing-overview' }"
-    class="hover:text-th8-primary text-th8-text/80"
+    :to="{ name: 'PlanSphere' }"
+    class="hover:text-th8-primary text-th8-text font-semibold inline-flex items-center gap-1"
   >
-    <span>Pricing</span>
-    
+    <span>PlanSphere™</span>
+    <span class="text-[10px] text-red-400 uppercase tracking-[0.16em]">FP&A</span>
   </RouterLink>
 </li>
         <li>
@@ -111,19 +110,18 @@
         </RouterLink>
         <RouterLink
           :to="{ name: 'services' }"
-           class="block py-1 text-th8-text font-semibold hover:text-th8-primary"
-          
+          class="block py-1 text-th8-text/80 hover:text-th8-primary"
           @click="open = false"
         >
           Solutions & Product Suite
         </RouterLink>
 
 <RouterLink
-  :to="{ name: 'pricing-overview' }"
- class="block py-1 text-th8-text/80 hover:text-th8-primary"
+  :to="{ name: 'PlanSphere' }"
+  class="block py-1 text-th8-text font-semibold hover:text-th8-primary"
   @click="open = false"
 >
-  Pricing
+  PlanSphere™ · FP&A
 </RouterLink>
         <RouterLink
           :to="{ name: 'what-we-do' }"

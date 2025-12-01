@@ -319,7 +319,7 @@
               </h2>
             </div>
             <RouterLink
-              :to="{ name: 'knowledge-suite' }"
+              :to="{ name: 'pillar-knowledge' }"
               class="text-[11px] font-semibold text-th8-primary hover:underline"
             >
               ดูตัวอย่างหน้าจอ (Knowledge Suite Mockup) ↗

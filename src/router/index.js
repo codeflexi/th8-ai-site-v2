@@ -1,3 +1,4 @@
+// src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 
 import HomeView from '../views/HomeView.vue'
@@ -30,7 +31,7 @@ import ProductionQualityIncidentMockupView from '../views/solutions/ProductionQu
 import CustomerComplaintRetentionStoryView from '../views/solutions/CustomerComplaintRetentionStory.vue'
 import CustomerComplaintRetentionMockupView from '../views/solutions/CustomerComplaintRetentionMockup.vue'
 
-// NEW: Pillar landing + detail views
+// Pillar landing + detail views
 import PillarAgentView from '../views/pillars/PillarAgentView.vue'
 import PillarWorkflowView from '../views/pillars/PillarWorkflowView.vue'
 import PillarKnowledgeView from '../views/pillars/PillarKnowledgeView.vue'
@@ -38,27 +39,31 @@ import PillarKnowledgeView from '../views/pillars/PillarKnowledgeView.vue'
 import AgentInventoryDemoView from '../views/pillars/AgentInventoryDemo.vue'
 import AgentFpaDemoView from '../views/pillars/AgentFpaDemo.vue'
 
-
 import WorkflowLineOrderView from '../views/pillars/WorkflowLineOrder.vue'
 import WorkflowOrderStockLoadingView from '../views/pillars/WorkflowOrderStockLoading.vue'
 import WorkflowProcurementApView from '../views/pillars/WorkflowProcurementAp.vue'
 
-// ⭐ NEW: Backoffice Agent Console (Pillar 1 screen hub)
+// Backoffice Agent Console (Pillar 1 hub)
 import Pillar1BackofficeHomeView from '../views/pillars/Pillar1BackofficeHome.vue'
-
-// ⭐ NEW: Backoffice Agent Detail Screens
 import Pillar1BackofficeFpaView from '../views/pillars/Pillar1BackofficeFpa.vue'
 import Pillar1BackofficeInventoryView from '../views/pillars/Pillar1BackofficeInventory.vue'
+import Pillar1BackofficeFpaDetail from '../views/pillars/Pillar1BackofficeFpaDetail.vue'
 
-// NEW: Pillar 3 admin
+// Pillar 3 admin
 import BackofficeConsoleView from '../views/pillars/BackofficeConsole.vue'
 
-// ⭐ NEW: Pillar 2 – Sales mockup screen
+// Pillar 2 mockups
 import Pillar2SaleView from '../views/pillars/Pillar2Sale.vue'
 import Pillar2StockView from '../views/pillars/Pillar2Stock.vue'
 import Pillar2ProcurementkView from '../views/pillars/Pillar2Procurement.vue'
-import Pillar1BackofficeFpaDetail from '../views/pillars/Pillar1BackofficeFpaDetail.vue'  
 
+// ⭐ Pricing / ROI views
+import PricingOverviewView from '../views/pricing/PricingOverviewView.vue'
+import PricingManufacturingView from '../views/pricing/PricingManufacturingView.vue'
+import PricingSolarView from '../views/pricing/PricingSolarView.vue'
+import PricingLogisticsView from '../views/pricing/PricingLogisticsView.vue'
+import PricingFnbView from '../views/pricing/PricingFnbView.vue'
+import PricingBankingView from '../views/pricing/PricingBankingView.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomeView },
@@ -158,6 +163,11 @@ const routes = [
     name: 'pillar1-backoffice-inventory',
     component: Pillar1BackofficeInventoryView,
   },
+  {
+    path: '/pillars/agent-suite/backoffice/fpa-detail',
+    name: 'pillar1-fpa-detail',
+    component: Pillar1BackofficeFpaDetail,
+  },
 
   // Pillar 2 flows
   {
@@ -176,34 +186,21 @@ const routes = [
     component: WorkflowProcurementApView,
   },
 
-  // ⭐ Pillar 2 – Sales mockup screen
+  // Pillar 2 mockups
   {
     path: '/pillars/workflow/sale-mockup',
     name: 'pillar2-sale-mockup',
     component: Pillar2SaleView,
   },
-
-   // ⭐ Pillar 2 – Stock mockup screen
   {
     path: '/pillars/workflow/stock-mockup',
     name: 'pillar2-stock-mockup',
     component: Pillar2StockView,
   },
-
-   // ⭐ Pillar 2 – Procurement mockup screen
   {
     path: '/pillars/workflow/procurement-mockup',
     name: 'pillar2-procurement-mockup',
     component: Pillar2ProcurementkView,
-  },
-
-    // ⭐ Pillar 1 – FPA Detail screen
-  {
-    path: '/pillars/agent-suite/backoffice/fpa-detail',
-    name: 'pillar1-fpa-detail',
-    component: Pillar1BackofficeFpaDetail,
-
-    
   },
 
   // Pillar 3 Backoffice
@@ -212,6 +209,14 @@ const routes = [
     name: 'backoffice-console',
     component: BackofficeConsoleView,
   },
+
+  // ⭐ Pricing / ROI
+  { path: '/pricing', name: 'pricing-overview', component: PricingOverviewView },
+  { path: '/pricing/manufacturing', name: 'pricing-manufacturing', component: PricingManufacturingView },
+  { path: '/pricing/solar', name: 'pricing-solar', component: PricingSolarView },
+  { path: '/pricing/logistics', name: 'pricing-logistics', component: PricingLogisticsView },
+  { path: '/pricing/fnb', name: 'pricing-fnb', component: PricingFnbView },
+  { path: '/pricing/banking', name: 'pricing-banking', component: PricingBankingView },
 
   // Deep pages
   { path: '/playbook', name: 'playbook', component: PlaybookView },

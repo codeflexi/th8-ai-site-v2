@@ -66,7 +66,9 @@ import PricingFnbView from '../views/pricing/PricingFnbView.vue'
 import PricingBankingView from '../views/pricing/PricingBankingView.vue'
 
 import AgenticStackView from '../views/AgenticStackView.vue'
+import CoreValuesBmcView from '../views/CoreValuesBmcView.vue'
 
+import BfsiAgentSuiteView from '../views/pricing/BfsiAgentSuiteView.vue'
 
 const routes = [
   { path: '/', name: 'home', component: HomeView },
@@ -226,7 +228,14 @@ const routes = [
   { path: '/services-deep', name: 'services-deep', component: ServicesViewDeep },
   { path: '/methodology-deep', name: 'what-we-do-deep', component: MethodologyDeep },
 
-  { path: '/agentic-stack', name: 'agentic-stack', component: AgenticStackView }
+  { path: '/agentic-stack', name: 'agentic-stack', component: AgenticStackView } ,
+  // Core Values + Business Model Canvas
+  {
+    path: '/th8/core-values-business-model',
+    name: 'core-bmc',
+    component: CoreValuesBmcView,
+  },
+  { path: '/solutions/bfsi-agent-suite', name: 'bfsi-agent-suite', component: BfsiAgentSuiteView }
 ]
 
 const router = createRouter({

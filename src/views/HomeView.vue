@@ -29,10 +29,11 @@
           <!-- HERO SUBTEXT (เวอร์ชันผู้บริหาร) -->
           <p class="text-sm lg:text-base text-th8-text/80 leading-relaxed max-w-xl">
             เราช่วยออกแบบ
-            <span class="font-semibold">“ระบบทำงานอัตโนมัติ”</span>
-            ที่ต่อเข้ากับ ERP, WMS, CRM, POS, Data warehouse และ LINE OA ที่คุณใช้อยู่แล้ว
+            <span class="font-semibold">“ระบบทช่วยคิด ช่วยทำ”</span>
+            เชื่อมต่อเข้ากับ ERP, WMS, CRM, POS, Data warehouse และ LINE OA ที่คุณใช้อยู่แล้ว
             ให้ทีมการตลาด ขาย การเงิน ปฏิบัติการ และโลจิสติกส์ทำงานซ้ำ ๆ น้อยลง
-            แต่ควบคุมตัวเลข คุณภาพงาน และความเสี่ยงได้มากขึ้น
+            แต่ควบคุมตัวเลข คุณภาพงาน และความเสี่ยงได้มากขึ้น พร้อมทั้ง เป็น  "สมอง" ที่ช่วยบอกทีมคุณว่า
+            <span class="font-semibold">อะไรเสี่ยง, อะไรขาดทุน, อะไรควรทำต่อ</span>
           </p>
 
           <!-- Hero Metrics -->
@@ -72,7 +73,7 @@
             </div>
             <div class="rounded-2xl border border-th8-border bg-white p-3 shadow-sm">
               <div class="flex items-center justify-between mb-1">
-                <p class="text-[10px] uppercase tracking-wide text-slate-500">DESIGNED FOR</p>
+                <p class="text-[10px] uppercase tracking-wide text-slate-500">Visibility</p>
                 <!-- org icon -->
                 <svg viewBox="0 0 24 24" class="h-4 w-4 text-slate-500">
                   <rect x="9" y="3" width="6" height="4" rx="1" class="fill-current opacity-70" />
@@ -87,8 +88,8 @@
                   />
                 </svg>
               </div>
-              <p class="text-lg font-semibold text-th8-text">Enterprise & SME</p>
-              <p class="text-[11px] text-slate-600">ออกแบบจากประสบการณ์ระบบระดับธนาคาร</p>
+              <p class="text-lg font-semibold text-th8-text">เห็นภาพรวมการใช้ AI</p>
+              <p class="text-[11px] text-slate-600">วัดผลได้จริง ผ่าน Dashboard เดียว</p>
             </div>
           </div>
 
@@ -198,9 +199,221 @@
   </RouterLink>
 </div>
 
-
       </div>
     </section>
+
+     <!-- SECTION: “คิดว่า ERP ทำได้แล้ว?” -->
+    <section class="border-b border-slate-200 bg-white">
+      <div class="max-w-6xl mx-auto px-4 py-10 space-y-6">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+          <div class="max-w-xl space-y-2">
+            <p class="text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-500">
+              Still thinking ERP is enough?
+            </p>
+            <h2 class="text-lg md:text-xl font-semibold text-slate-900">
+              “คิดว่า ERP, RPA, BI, Line OA ทำได้อยู่แล้ว”… จริง ๆ แล้วทำได้แค่ครึ่งเดียว
+            </h2>
+            <p class="text-sm text-slate-600">
+              มุมมองที่ได้ยินบ่อยมากจากผู้บริหารไทย:
+            </p>
+            <ul class="text-sm text-slate-700 space-y-1.5 mt-1">
+              <li>• <span class="font-semibold">OCR</span> = ใน ERP ก็มีแล้ว</li>
+              <li>• <span class="font-semibold">บันทึกข้อมูลอัตโนมัติ</span> = RPA ทำได้</li>
+              <li>• <span class="font-semibold">Dashboard</span> = BI ทำได้</li>
+              <li>• <span class="font-semibold">Messenger bot</span> = Line OA มีอยู่แล้ว</li>
+            </ul>
+            <p class="text-sm text-slate-700 mt-3">
+              เลยเผลอสรุปว่า  
+              <span class="font-semibold text-red-600">
+                “AI Agent = อีกเครื่องมือหนึ่งที่ซ้ำกับของเดิม”
+              </span>
+              ทั้งที่จริงแล้ว…มันเกิดมา “คนละหน้าที่” ตั้งแต่วันแรก
+            </p>
+          </div>
+
+          <!-- ERP vs AI Agent Table -->
+          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-4 text-xs md:text-sm">
+            <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500 mb-3">
+              ERP ตอบคำถามอะไร · AI Agent ตอบคำถามอะไร
+            </p>
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <p class="text-xs font-semibold text-slate-700 mb-1">ERP / RPA / BI / Bot</p>
+                <ul class="space-y-1 text-slate-600">
+                  <li>• เก็บและแสดงข้อมูล</li>
+                  <li>• ทำงานตามกฎที่กำหนดไว้</li>
+                  <li>• ลดการกดปุ่มซ้ำ ๆ</li>
+                  <li>• ตอบว่า “ตอนนี้เกิดอะไรขึ้นในระบบ?”</li>
+                </ul>
+              </div>
+              <div>
+                <p class="text-xs font-semibold text-red-600 mb-1">AI Agent</p>
+                <ul class="space-y-1 text-slate-700">
+                  <li>• ดึงข้อมูลจากหลายระบบมาคิดแทนคน</li>
+                  <li>• มอง pattern · คาดการณ์ · เตือนความเสี่ยง</li>
+                  <li>• สรุปเหลือ “สิ่งที่ต้องตัดสินใจ”</li>
+                  <li>• ตอบว่า “ควรทำอะไรต่อ เพื่อไม่ให้เสียเงิน?”</li>
+                </ul>
+              </div>
+            </div>
+            <p class="mt-3 text-[11px] text-slate-500">
+              TH8.AI ไม่ได้มาแทน ERP เดิม แต่มาเติม “สมอง” ให้ระบบที่คุณมีอยู่แล้วฉลาดขึ้น
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- WHY TH8.AI -->
+    <section class="bg-white border-b border-th8-border py-16">
+      <div class="max-w-6xl mx-auto px-4 space-y-10">
+        <!-- Title -->
+        <div class="space-y-2 text-center md:text-left">
+          <p class="text-[11px] font-semibold uppercase tracking-[0.22em] text-th8-primary">
+            Why TH8.AI · ทำไมต้องเรา
+          </p>
+          <h2 class="text-2xl md:text-3xl font-bold text-th8-text">
+            TH8.AI ไม่ได้ขายแค่ “โปรเจกต์ AI สั้น ๆ” แต่สร้าง Agentic System Layer สำหรับองค์กรไทย
+          </h2>
+          <p class="text-sm md:text-base text-th8-text/80 max-w-3xl mt-1">
+            เป้าหมายของเราชัดเจน: วาง <span class="font-semibold">Agentic Layer</span> ซ้อนบนระบบเดิม
+            (ERP / WMS / CRM / POS / Data Warehouse / LINE OA) เพื่อให้ทีมคุณลดงานซ้ำ ๆ ลง
+            แต่เพิ่มความสามารถในการมองภาพรวม ตัดสินใจ และควบคุมความเสี่ยงได้ดีขึ้นในอีก 5–10 ปีข้างหน้า
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-[1.1fr_0.9fr] gap-6 text-sm">
+          <!-- Left: สำหรับองค์กรที่อยากใช้ AI ให้เกิดผลจริง -->
+          <div class="space-y-4">
+            <div class="rounded-2xl border border-th8-border bg-slate-50 p-5 space-y-2">
+              <p class="text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                สำหรับองค์กรที่อยากใช้ AI ให้ “เกิดผลจริง”
+              </p>
+              <h3 class="font-semibold text-th8-text">
+                ไม่ได้มาขาย “เดโมเท่ ๆ” แต่มาช่วยทำให้ระบบเดิมฉลาดขึ้น
+              </h3>
+              <p class="text-sm text-th8-text/80">
+                เราเริ่มจาก Workflow และข้อมูลที่คุณมีอยู่แล้ว
+                แล้วออกแบบ Agent ให้เข้าไปช่วยคิด ช่วยทำ ในจุดที่ทีมคุณเสียเวลาและเสี่ยงผิดพลาดที่สุด
+                โดยไม่ต้องรื้อ ERP หรือระบบหลักที่ลงทุนไปแล้ว
+              </p>
+            </div>
+
+            <div class="rounded-2xl border border-th8-border bg-slate-50 p-5 space-y-2">
+              <h3 class="font-semibold text-th8-text">
+                ผลลัพธ์ต้องวัดได้ — ไม่ใช่แค่ “มี AI ในองค์กรแล้ว”
+              </h3>
+              <p class="text-sm text-th8-text/80">
+                ทุก Use case ที่เราทำ ต้องกลับมาเป็นตัวเลขชัดเจน เช่น เวลาในการทำงานที่ลดลง,
+                Error ในเอกสารและ Transaction ที่ลดลง, หรือ Margin/ต้นทุนที่ดีขึ้น
+                ไม่ใช่แค่ Proof-of-concept ที่จบแล้วหายไป
+              </p>
+              <ul class="mt-1 space-y-1 text-sm text-slate-700">
+                <li>• ลดงาน Routine 30–50% ในทีมที่แตะข้อมูลทุกวัน</li>
+                <li>• ลด Human error 20–40% ใน PO, Invoice, Stock, และ Transaction สำคัญ</li>
+                <li>• ทำให้ทีมเห็นภาพรวมจากหลายระบบใน Dashboard มุมเดียว</li>
+              </ul>
+            </div>
+
+            <div class="rounded-2xl border border-th8-border bg-slate-50 p-5 space-y-2">
+              <h3 class="font-semibold text-th8-text">
+                ใช้คนเดิม ระบบเดิม แต่เพิ่ม “สมอง Agentic” เข้าไปช่วย
+              </h3>
+              <p class="text-sm text-th8-text/80">
+                เราเชื่อว่าทีมที่คุณมีอยู่แล้วคือ Asset สำคัญที่สุด
+                TH8.AI ถูกออกแบบมาเพื่อให้คนเก่งในองค์กร “ขยายพลัง” ผ่าน Agent
+                ไม่ใช่ถูกแทนที่ด้วยเทคโนโลยี
+              </p>
+            </div>
+          </div>
+
+          <!-- Right: มุมมองสำหรับนักลงทุน & เพื่อนร่วมสร้าง -->
+          <div class="space-y-4">
+            <div class="rounded-2xl border border-th8-border bg-slate-900 text-slate-50 p-5 space-y-3">
+              <p class="text-[11px] font-semibold uppercase tracking-wide text-amber-300">
+                มุมมองสำหรับ “นักลงทุน &amp; เพื่อนร่วมสร้าง TH8.AI”
+              </p>
+              <h3 class="font-semibold text-base">
+                จากบริษัท implement AI → สู่แพลตฟอร์ม Agentic System สำหรับองค์กรไทย
+              </h3>
+              <p class="text-[13px] text-slate-200">
+                วิสัยทัศน์ของ TH8.AI คือการเป็น “มาตรฐานใหม่ของการใช้ AI ในองค์กรไทย”
+                ไม่ใช่แค่ทีมต่อ API LLM แต่เป็นทีมที่สร้าง <span class="font-semibold">Agentic Layer</span>
+                ให้ระบบเดิมใช้ AI ได้เต็มศักยภาพ
+              </p>
+
+              <div class="grid grid-cols-1 gap-3 text-xs">
+                <div class="rounded-xl bg-slate-800/90 border border-slate-700 p-3 space-y-1.5">
+                  <p class="font-semibold text-slate-50">Business Model ชัดเจน</p>
+                  <ul class="space-y-1 text-slate-200">
+                    <li>• รายได้เริ่มต้นจาก Implementation &amp; Integration</li>
+                    <li>• รายได้ประจำจาก Subscription / Retainer รายเดือน</li>
+                    <li>• Upsell Module &amp; Industry Pack สำหรับหลายอุตสาหกรรม</li>
+                  </ul>
+                </div>
+
+                <div class="rounded-xl bg-slate-800/90 border border-slate-700 p-3 space-y-1.5">
+                  <p class="font-semibold text-slate-50">มี IP เป็นของตัวเอง</p>
+                  <ul class="space-y-1 text-slate-200">
+                    <li>• TH8 Agentic Integration Stack™</li>
+                    <li>• TH8 3-Layer Agent Architecture™</li>
+                    <li>• TH8 Knowledge Copilot™ &amp; Workflow Sync Engine™</li>
+                    <li>→ Reuse ได้ข้ามหลายอุตสาหกรรม ลดต้นทุนการทำโปรเจกต์ใหม่</li>
+                  </ul>
+                </div>
+
+                <div class="rounded-xl bg-slate-800/90 border border-slate-700 p-3 space-y-1.5">
+                  <p class="font-semibold text-slate-50">ภาพรายได้ที่ “โตไปกับลูกค้า”</p>
+                  <p class="text-slate-200">
+                    หากปี 2568 มีลูกค้า 20 ราย เฉลี่ย 80,000–100,000 บาท/เดือน  
+                    เรากำลังพูดถึงรายได้ประจำราว <span class="font-semibold">1.6–2.0 ล้านบาท/เดือน</span>
+                    ยังไม่รวมค่าติดตั้ง, Training และ Upsell Module เพิ่มเติม
+                  </p>
+                </div>
+              </div>
+
+              <p class="text-[11px] text-amber-200/90 pt-1">
+                ถ้าคุณเชื่อว่าธุรกิจไทยยังต้องการ “คนกลาง” ที่เข้าใจทั้งระบบเดิมและ AI รุ่นใหม่อย่างลึกซึ้ง  
+                TH8.AI คือช่องว่างนั้น — และตอนนี้คือช่วงเวลาที่ดีที่สุดในการลงมือสร้างไปด้วยกัน 🚀
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Core Pillars Strip -->
+        <div
+          class="rounded-2xl border border-th8-border bg-slate-50 px-4 py-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-[11px] md:text-[12px]"
+        >
+          <div class="font-semibold text-th8-text">
+            แกนความคิดของ TH8.AI:
+            <span class="text-th8-primary">Think Human • Act Integrated • Learn Fast • Nurture by Data</span>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="inline-flex items-center rounded-full border border-slate-300 bg-white px-3 py-1 font-medium text-[11px]"
+            >
+              T + H — Think Human First
+            </span>
+            <span
+              class="inline-flex items-center rounded-full border border-slate-300 bg-white px-3 py-1 font-medium text-[11px]"
+            >
+              A + I — Act with Integration
+            </span>
+            <span
+              class="inline-flex items-center rounded-full border border-slate-300 bg-white px-3 py-1 font-medium text-[11px]"
+            >
+              L + A — Learn &amp; Adapt Fast
+            </span>
+            <span
+              class="inline-flex items-center rounded-full border border-slate-300 bg-white px-3 py-1 font-medium text-[11px]"
+            >
+              N + D — Nurture with Data
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
      <!-- 3 PILLARS / SOLUTIONS OVERVIEW (ICON UPGRADED + LINKS) -->
     <section class="bg-th8-surface border-b border-th8-border py-16">
@@ -446,106 +659,86 @@
       </div>
     </section>
 
-    <!-- KEY SEGMENTS -->
-    <section class="bg-white border-b border-th8-border py-16">
-      <div class="max-w-6xl mx-auto px-4 space-y-10">
-        <!-- Title -->
-        <div class="text-center space-y-3">
-          <h2 class="text-2xl font-bold text-th8-text">เราทำงานกับทีมแบบไหน?</h2>
-          <p class="text-sm text-th8-text/70">
-            TH8.AI ทำงานใกล้ชิดกับทีมที่ “แตะข้อมูลและระบบทุกวัน”
-            ไม่ว่าจะเป็นการเงิน ปฏิบัติการ หรือโลจิสติกส์
+       <!-- CORE VALUES & BUSINESS MODEL CARD -->
+    <section class="bg-white border-b border-th8-border py-14">
+      <div class="max-w-6xl mx-auto px-4 space-y-6">
+        <div class="space-y-2 max-w-3xl">
+          <h2 class="text-2xl font-bold text-th8-text">
+            ทำไมต้อง TH8.AI? — Core Values &amp; Business Model ที่โตได้จริง
+          </h2>
+          <p class="text-sm text-slate-600">
+            ถ้าอยากรู้ว่าเราคิดต่างจากบริษัท AI ทั่วไปอย่างไร และโมเดลรายได้ของ TH8.AI
+            จะเติบโตเป็นธุรกิจจริง ๆ ได้ยังไง ลองดูภาพรวมในหน้า Core Values &amp; Business Model Canvas
           </p>
         </div>
 
-        <!-- 3 Columns -->
-        <div class="grid md:grid-cols-3 gap-6">
-          <!-- Finance -->
-          <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
-            <div class="flex items-center gap-3 mb-3">
-              <div
-                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-th8-primary/10"
-              >
-                <!-- finance icon -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-th8-primary">
-                  <path
-                    d="M4 18h16"
-                    class="stroke-current opacity-50"
-                    stroke-width="1.3"
-                    stroke-linecap="round"
-                  />
-                  <rect x="5" y="10" width="3" height="6" class="fill-current opacity-40" />
-                  <rect x="10.5" y="8" width="3" height="8" class="fill-current opacity-70" />
-                  <rect x="16" y="6" width="3" height="10" class="fill-current" />
-                </svg>
+        <div class="grid md:grid-cols-2 gap-4 text-sm">
+          <!-- Card 1: Core Values -->
+          <RouterLink
+            :to="{ name: 'core-bmc' }"
+            class="rounded-2xl border border-th8-border bg-slate-50 p-5 shadow-sm hover:border-th8-primary hover:shadow-md transition flex flex-col gap-3"
+          >
+            <div class="flex items-center gap-3">
+              <div class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-th8-primary/10">
+                <!-- simple “TH” icon -->
+                <span class="text-xs font-extrabold text-th8-primary tracking-widest">TH</span>
               </div>
-              <h3 class="font-semibold text-th8-text">Finance &amp; FP&amp;A</h3>
+              <div>
+                <p class="text-[11px] uppercase tracking-wide text-slate-500">
+                  THAILAND · 4 Pillars
+                </p>
+                <h3 class="text-base font-semibold text-th8-text">
+                  Core Values — Think Human • Act Integrated • Learn Fast • Nurture by Data
+                </h3>
+              </div>
             </div>
-            <p class="text-sm text-th8-text/70 mb-4">
-              ลดเวลาปิดงบ วิเคราะห์ตัวเลขอัตโนมัติ เตรียม Insight ให้ผู้บริหาร
+            <p class="text-slate-700">
+              สรุปตัวตนของ TH8.AI แบบกระชับ เหมาะสำหรับอธิบายให้ผู้บริหาร นักลงทุน และเพื่อนร่วมทีม
+              ว่าเราโฟกัส “ช่วยคนทำงาน” ผ่าน Agentic System ไม่ใช่แค่ต่อ API ให้ลองเล่น AI
             </p>
-            <ul class="text-sm text-slate-600 space-y-1">
-              <li>• Time saved 30–50%</li>
-              <li>• ลด Human-error จากไฟล์ Excel / Sheet</li>
-              <li>• FP&amp;A Copilot / Scenario Engine</li>
-            </ul>
-          </div>
+            <p class="mt-1 text-[12px] text-th8-primary font-medium flex items-center gap-1">
+              เปิดดู 4 Core Pillars ของ TH8.AI
+              <span class="text-xs">⟶</span>
+            </p>
+          </RouterLink>
 
-          <!-- Ops -->
-          <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
-            <div class="flex items-center gap-3 mb-3">
-              <div
-                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500/10"
-              >
-                <!-- ops icon: boxes -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-emerald-600">
-                  <rect x="4" y="5" width="7" height="6" rx="1" class="fill-current opacity-70" />
-                  <rect x="13" y="7" width="7" height="6" rx="1" class="fill-current opacity-40" />
-                  <rect x="8" y="13" width="8" height="6" rx="1" class="fill-current opacity-60" />
+          <!-- Card 2: Business Model Canvas -->
+          <RouterLink
+            :to="{ name: 'core-bmc', hash: '#business-model-canvas' }"
+            class="rounded-2xl border border-th8-border bg-white p-5 shadow-sm hover:border-th8-primary hover:shadow-md transition flex flex-col gap-3"
+          >
+            <div class="flex items-center gap-3">
+              <div class="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500/10">
+                <!-- simple canvas / grid icon -->
+                <svg viewBox="0 0 24 24" class="h-5 w-5 text-emerald-600">
+                  <rect x="4" y="5" width="7" height="5" class="fill-current opacity-80" />
+                  <rect x="13" y="5" width="7" height="5" class="fill-current opacity-40" />
+                  <rect x="4" y="13" width="7" height="6" class="fill-current opacity-40" />
+                  <rect x="13" y="13" width="7" height="6" class="fill-current opacity-80" />
                 </svg>
               </div>
-              <h3 class="font-semibold text-th8-text">Operations &amp; Inventory</h3>
-            </div>
-            <p class="text-sm text-th8-text/70 mb-4">
-              เชื่อมระบบเดิม + จัดการ Order, Stock, Exception แบบอัตโนมัติ
-            </p>
-            <ul class="text-sm text-slate-600 space-y-1">
-              <li>• Error ลดลง 20–40%</li>
-              <li>• Inventory Health &amp; Replenishment</li>
-              <li>• Order Intake &amp; Validation Agent</li>
-            </ul>
-          </div>
-
-          <!-- Logistics -->
-          <div class="p-6 rounded-2xl border border-th8-border bg-slate-50">
-            <div class="flex items-center gap-3 mb-3">
-              <div
-                class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-sky-500/10"
-              >
-                <!-- logistics icon: simple truck -->
-                <svg viewBox="0 0 24 24" class="h-4 w-4 text-sky-600">
-                  <rect x="3" y="9" width="9" height="5" rx="1" class="fill-current opacity-80" />
-                  <path d="M12 10h4l3 3v1h-7" class="fill-current opacity-60" />
-                  <circle cx="7" cy="16" r="1.6" class="fill-current" />
-                  <circle cx="17" cy="16" r="1.6" class="fill-current" />
-                </svg>
+              <div>
+                <p class="text-[11px] uppercase tracking-wide text-slate-500">
+                  Business Model Canvas
+                </p>
+                <h3 class="text-base font-semibold text-th8-text">
+                  โมเดลธุรกิจ TH8.AI สำหรับนักลงทุน &amp; เพื่อนร่วมสร้าง
+                </h3>
               </div>
-              <h3 class="font-semibold text-th8-text">Logistics &amp; Delivery</h3>
             </div>
-            <p class="text-sm text-th8-text/70 mb-4">
-              Route planning, Dispatch, Follow-up และ Exception ช่วยลดภาระทีมขนส่ง
+            <p class="text-slate-700">
+              เห็นภาพรายได้จาก Implementation, Subscription, Retainer และ Industry Playbook
+              รวมถึง IP 4 ชุดหลักของ TH8.AI ที่ต่อยอดได้ข้ามหลายอุตสาหกรรม
             </p>
-            <ul class="text-sm text-slate-600 space-y-1">
-              <li>• ลดค่าน้ำมัน / เพิ่ม Drop per trip</li>
-              <li>• Route Planner &amp; Exception Engine</li>
-              <li>• Delivery Reconciliation</li>
-            </ul>
-          </div>
+            <p class="mt-1 text-[12px] text-emerald-700 font-medium flex items-center gap-1">
+              ดู Business Model Canvas แบบเต็ม
+              <span class="text-xs">⟶</span>
+            </p>
+          </RouterLink>
         </div>
       </div>
     </section>
 
-   
 
     <!-- KPI / TRUST SECTION -->
     <section class="bg-slate-50 border-b border-th8-border py-16">
@@ -749,7 +942,7 @@
         </div>
         <div class="flex flex-wrap gap-3">
           <a
-            href="https://lin.ee/4YAf9fp"
+            href="https://lin.ee/4M6GMxh"
             target="_blank"
           class="inline-flex items-center justify-center rounded-full border border-th8-border px-4 py-2 text-xs font-medium  bg-green-500 text-th8-text text-white  hover:bg-slate-30"
           >

@@ -67,6 +67,68 @@
         </div>
       </section>
 
+      <!-- 90 Days-->
+
+      <section class="bg-white border border-slate-200 rounded-2xl p-5 mt-8">
+  <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
+    <div>
+      <p class="text-[11px] uppercase tracking-[0.22em] text-slate-500 font-semibold">
+        90-Day Pilot · Start Small, Learn Fast
+      </p>
+      <h2 class="text-lg font-semibold text-slate-900">
+        เริ่มจาก Pilot 90 วัน · ไม่ผูกมัดระยะยาว · ใช้ข้อมูลจริงของบริษัทคุณเอง
+      </h2>
+      <p class="text-sm text-slate-600 max-w-xl mt-1.5">
+        เป้าหมายไม่ใช่ “ทำโปรเจกต์ AI ให้จบ” แต่คือ “พิสูจน์ให้เห็นว่า AI Agent ช่วยลดงาน ลดความผิดพลาด
+        และเพิ่มกำไรได้จริงในองค์กรคุณ”
+      </p>
+    </div>
+    <div class="text-xs text-slate-500 bg-slate-50 border border-slate-200 rounded-xl px-3 py-2">
+      <p>✔ ใช้ระบบเดิม (ERP/Excel/CRM) เป็นฐาน</p>
+      <p>✔ เลือก 1–2 Use Case ที่ impact สูงสุด</p>
+      <p>✔ ถ้าไม่เห็นประโยชน์ ไม่ต้องขยายต่อ</p>
+    </div>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-4 text-xs md:text-sm">
+    <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+      <p class="font-semibold text-slate-800 mb-1">Scope (โดยประมาณ)</p>
+      <ul class="space-y-1 text-slate-600">
+        <li>• 1–2 AI Agent / Dashboard หลัก</li>
+        <li>• เชื่อมต่อ 1–4 ระบบ (ERP/Excel/CRM/WMS)</li>
+        <li>• Coaching ทีมงานใช้งานจริง</li>
+        <li>• Executive Review ทุก 4 สัปดาห์</li>
+      </ul>
+    </div>
+    <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+      <p class="font-semibold text-slate-800 mb-1">การลงทุน (ไม่ผูกมัด)</p>
+      <ul class="space-y-1 text-slate-600">
+        <li>• ค่าติดตั้ง + implement ครั้งแรก</li>
+        <li class="pl-3">ประมาณ <span class="font-semibold">฿350,000 – 600,000</span></li>
+        <li>• ค่าบริการ Platform & Support รายเดือน</li>
+        <li class="pl-3">ประมาณ <span class="font-semibold">฿60,000 – 120,000 / เดือน</span></li>
+        <li>• ค่าบริการ LLM API</li>
+        <li class="pl-3">เริ่ม ~ <span class="font-semibold">฿10,000 – 60,000 / เดือน</span></li>
+      </ul>
+      <p class="text-[11px] text-slate-500 mt-2">
+        *ตัวเลขทั้งหมดเป็น range เพื่อการวางแผนงบประมาณ — ปรับตาม scope จริงในแต่ละองค์กร
+      </p>
+    </div>
+    <div class="bg-slate-900 text-slate-50 rounded-xl p-4">
+      <p class="font-semibold mb-1">สิ่งที่ต้องได้กลับไปใน 90 วัน</p>
+      <ul class="space-y-1 text-slate-100">
+        <li>• Dashboard จากข้อมูลจริงของคุณเอง (ไม่ใช่ demo)</li>
+        <li>• AI Agent ที่ทีมงานใช้ได้จริงในงานประจำวัน</li>
+        <li>• ตัวเลขวัดผล: เวลาที่ลดลง / งานแก้ซ้ำที่หายไป / เงินที่ประหยัดได้ (โดยประมาณ)</li>
+      </ul>
+      <p class="text-[11px] text-slate-300 mt-2">
+        ถ้าไม่เห็นประโยชน์ชัดเจนใน 90 วัน — เราไม่แนะนำให้ขยายไปทั้งองค์กร (และเราพูดแบบนี้กับทุกบริษัท)
+      </p>
+    </div>
+  </div>
+</section>
+
+
       <!-- Note -->
       <section class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 text-sm">
         <h2 class="text-base md:text-lg font-semibold mb-2">

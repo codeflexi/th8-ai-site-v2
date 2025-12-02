@@ -436,7 +436,7 @@
         </div>
 
         <!-- CTA -->
-        <div class="text-center pt-4 space-y-3">
+              <div class="text-center pt-4 space-y-3">
           <h3 class="text-lg md:text-xl font-bold">
             ใช้ Framework เดียวกันนี้ ไปเล่าให้ผู้บริหารในองค์กรคุณฟังได้เลย
           </h3>
@@ -446,22 +446,27 @@
             ก็สามารถใช้ 4 Framework นี้เป็นโครงตั้งต้นได้ทันที
           </p>
         
-           <div class="flex flex-wrap gap-3">
-          <a
-            href="https://lin.ee/4YAf9fp"
-            target="_blank"
-            class="inline-flex items-center justify-center rounded-full border border-th8-border px-4 py-2 text-xs font-medium  bg-green-500 text-th8-text text-white  hover:bg-slate-30"
-          >
-         
-             นัดคุยออกแบบ Agentic System สำหรับองค์กรของคุณ →
-          </a>
-        
-        </div>
-           
-        
-       
+          <div class="flex flex-wrap gap-3 justify-center">
+            <!-- ไปคุยผ่าน LINE -->
+            <a
+              href="https://lin.ee/4YAf9fp"
+              target="_blank"
+              class="inline-flex items-center justify-center rounded-full border border-th8-border px-4 py-2 text-xs font-medium bg-green-500 text-white hover:bg-green-600"
+            >
+              นัดคุยออกแบบ Agentic System สำหรับองค์กรของคุณ →
+            </a>
 
+            <!-- ลิงก์ไปหน้า Agentic Stack Tools -->
+            <RouterLink
+              :to="{ name: 'agentic-stack-tools' }"
+              class="inline-flex items-center justify-center rounded-full bg-th8-primary px-4 py-2 text-xs font-semibold text-white hover:bg-th8-accent"
+            >
+              ดู Tech Stack &amp; Tools ที่ใช้จริง →
+            </RouterLink>
+          </div>
         </div>
+
+
       </section>
     </main>
   </div>

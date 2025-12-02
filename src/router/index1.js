@@ -79,7 +79,7 @@ const routes = [
   { path: '/case-studies', name: 'case-studies', component: CaseStudiesView },
   { path: '/contact', name: 'contact', component: ContactView },
 
- { path: '/plansphere', name: 'PlanSphere', component: PlanSphereView },
+  { path: '/plansphere', name: 'PlanSphere', component: PlanSphereView },
   { path: '/plansphere/th', name: 'plansphere-th', component: PlanSphereThView },
   { path: '/plansphere/flow', name: 'plansphere-flow', component: PlanSphereFlowView },
   { path: '/plansphere/playbook', name: 'fpa-playbook', component: FpaPlaybookView },
@@ -89,49 +89,49 @@ const routes = [
   {
     path: '/solutions/accounting-ap-fnb',
     name: 'accounting-ap-fnb',
-    component: AccountingApFnbStoryView
+    component: AccountingApFnbStoryView,
   },
   {
     path: '/solutions/accounting-ap-fnb/mockup',
     name: 'accounting-ap-fnb-mockup',
-    component: AccountingApFnbMockupView
+    component: AccountingApFnbMockupView,
   },
 
   // Existing solutions
   {
     path: '/solutions/knowledge-suite/mockup',
     name: 'knowledge-suite',
-    component: KnowledgeAnalyticsView
+    component: KnowledgeAnalyticsView,
   },
   {
     path: '/solutions/logistics-control-tower',
     name: 'logistics-control-tower',
-    component: LogisticsControlTowerStoryView
+    component: LogisticsControlTowerStoryView,
   },
   {
     path: '/solutions/logistics-control-tower/mockup',
     name: 'logistics-control-tower-mockup',
-    component: LogisticsControlTowerMockupView
+    component: LogisticsControlTowerMockupView,
   },
   {
     path: '/solutions/production-quality-incident',
     name: 'production-quality-incident',
-    component: ProductionQualityIncidentStoryView
+    component: ProductionQualityIncidentStoryView,
   },
   {
     path: '/solutions/production-quality-incident/mockup',
     name: 'production-quality-incident-mockup',
-    component: ProductionQualityIncidentMockupView
+    component: ProductionQualityIncidentMockupView,
   },
   {
     path: '/solutions/customer-complaint-retention',
     name: 'customer-complaint-retention',
-    component: CustomerComplaintRetentionStoryView
+    component: CustomerComplaintRetentionStoryView,
   },
   {
     path: '/solutions/customer-complaint-retention/mockup',
     name: 'customer-complaint-retention-mockup',
-    component: CustomerComplaintRetentionMockupView
+    component: CustomerComplaintRetentionMockupView,
   },
 
   // Pillar landing pages
@@ -143,75 +143,75 @@ const routes = [
   {
     path: '/pillars/agent-suite/inventory',
     name: 'agent-inventory-demo',
-    component: AgentInventoryDemoView
+    component: AgentInventoryDemoView,
   },
   {
     path: '/pillars/agent-suite/fpa',
     name: 'agent-fpa-demo',
-    component: AgentFpaDemoView
+    component: AgentFpaDemoView,
   },
 
   // Pillar 1 – Backoffice Screens
   {
     path: '/pillars/agent-suite/backoffice',
     name: 'pillar1-backoffice-home',
-    component: Pillar1BackofficeHomeView
+    component: Pillar1BackofficeHomeView,
   },
   {
     path: '/pillars/agent-suite/backoffice/fpa',
     name: 'pillar1-backoffice-fpa',
-    component: Pillar1BackofficeFpaView
+    component: Pillar1BackofficeFpaView,
   },
   {
     path: '/pillars/agent-suite/backoffice/inventory',
     name: 'pillar1-backoffice-inventory',
-    component: Pillar1BackofficeInventoryView
+    component: Pillar1BackofficeInventoryView,
   },
   {
     path: '/pillars/agent-suite/backoffice/fpa-detail',
     name: 'pillar1-fpa-detail',
-    component: Pillar1BackofficeFpaDetail
+    component: Pillar1BackofficeFpaDetail,
   },
 
   // Pillar 2 flows
   {
     path: '/pillars/workflow/line-order-sync',
     name: 'workflow-line-order',
-    component: WorkflowLineOrderView
+    component: WorkflowLineOrderView,
   },
   {
     path: '/pillars/workflow/order-stock-loading',
     name: 'workflow-order-stock-loading',
-    component: WorkflowOrderStockLoadingView
+    component: WorkflowOrderStockLoadingView,
   },
   {
     path: '/pillars/workflow/procurement-ap',
     name: 'workflow-procurement-ap',
-    component: WorkflowProcurementApView
+    component: WorkflowProcurementApView,
   },
 
   // Pillar 2 mockups
   {
     path: '/pillars/workflow/sale-mockup',
     name: 'pillar2-sale-mockup',
-    component: Pillar2SaleView
+    component: Pillar2SaleView,
   },
   {
     path: '/pillars/workflow/stock-mockup',
     name: 'pillar2-stock-mockup',
-    component: Pillar2StockView
+    component: Pillar2StockView,
   },
   {
     path: '/pillars/workflow/procurement-mockup',
     name: 'pillar2-procurement-mockup',
-    component: Pillar2ProcurementkView
+    component: Pillar2ProcurementkView,
   },
 
   // Pillar 3 Backoffice
   {
     path: '/backoffice/console',
     name: 'backoffice-console',
-    component: BackofficeConsoleView
+    component: BackofficeConsoleView,
   },
 
   // ⭐ Pricing / ROI
@@ -227,27 +227,23 @@ const routes = [
   { path: '/services-deep', name: 'services-deep', component: ServicesViewDeep },
   { path: '/methodology-deep', name: 'what-we-do-deep', component: MethodologyDeep },
 
-  { path: '/agentic-stack', name: 'agentic-stack', component: AgenticStackView },
-  { path: '/agentic-stack-tools', name: 'agentic-stack-tools', component: AgenticStackToolView },
-
+  { path: '/agentic-stack', name: 'agentic-stack', component: AgenticStackView } ,
   // Core Values + Business Model Canvas
+  { path: '/agentic-stack-tools', name: 'agentic-stack-tools ', component: AgenticStackToolView } ,
+  // Core Values + Business Model Canvas
+  {
+
   {
     path: '/th8/core-values-business-model',
     name: 'core-bmc',
-    component: CoreValuesBmcView
+    component: CoreValuesBmcView,
   },
-
-  // BFSI landing
-  {
-    path: '/solutions/bfsi-agent-suite',
-    name: 'bfsi-agent-suite',
-    component: BfsiAgentSuiteView
-  }
+  { path: '/solutions/bfsi-agent-suite', name: 'bfsi-agent-suite', component: BfsiAgentSuiteView }
 ]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes
+  routes,
 })
 
 export default router

@@ -18,45 +18,21 @@
         <div class="grid grid-cols-3 gap-3 text-[11px]">
           <div class="rounded-2xl border border-th8-border bg-th8-surface px-3 py-2.5 shadow-sm">
             <div class="flex items-center gap-2 mb-1.5">
-              <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-red-50 text-[14px]">
-  <svg viewBox="0 0 24 24" class="h-3.5 w-3.5 text-red-500" aria-hidden="true">
-    <circle cx="12" cy="12" r="8" class="fill-none stroke-current" stroke-width="1.5" />
-    <path d="M12 7v10" class="fill-none stroke-current" stroke-width="1.5" stroke-linecap="round" />
-    <path d="M9.5 10.2h3a1.8 1.8 0 0 1 0 3.6H11"
-          class="fill-none stroke-current" stroke-width="1.5" stroke-linecap="round" />
-  </svg>
-</span>
+              <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-red-50 text-[14px]">฿</span>
               <span class="font-semibold text-th8-text">Finance</span>
             </div>
             <p class="text-slate-600">FP&amp;A, งบการเงิน, Scenario</p>
           </div>
           <div class="rounded-2xl border border-th8-border bg-th8-surface px-3 py-2.5 shadow-sm">
             <div class="flex items-center gap-2 mb-1.5">
-              <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-red-50 text-[14px]">
-  <svg viewBox="0 0 24 24" class="h-3.5 w-3.5 text-red-500" aria-hidden="true">
-    <path
-      d="M10.2 4.5 9.8 3h4.4l-.4 1.5a5.4 5.4 0 0 1 1.6.9l1.4-.6 1.8 3.1-1.2.8a5.6 5.6 0 0 1 0 1.8l1.2.8-1.8 3.1-1.4-.6a5.4 5.4 0 0 1-1.6.9l.4 1.5H9.8l.4-1.5a5.4 5.4 0 0 1-1.6-.9l-1.4.6-1.8-3.1 1.2-.8a5.6 5.6 0 0 1 0-1.8l-1.2-.8 1.8-3.1 1.4.6a5.4 5.4 0 0 1 1.6-.9Z"
-      class="fill-none stroke-current" stroke-width="1.3" stroke-linejoin="round" />
-    <circle cx="12" cy="12" r="2.4" class="fill-none stroke-current" stroke-width="1.3" />
-  </svg>
-</span>
+              <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-red-50 text-[14px]">⚙️</span>
               <span class="font-semibold text-th8-text">Operations</span>
             </div>
             <p class="text-slate-600">Order, Warehouse, Route</p>
           </div>
           <div class="rounded-2xl border border-th8-border bg-th8-surface px-3 py-2.5 shadow-sm">
             <div class="flex items-center gap-2 mb-1.5">
-              <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-red-50 text-[14px]">
-  <svg viewBox="0 0 24 24" class="h-3.5 w-3.5 text-red-500" aria-hidden="true">
-    <path
-      d="M6 6.5h8.5a2 2 0 0 1 2 2V18H8a2 2 0 0 0-2 2V6.5Z"
-      class="fill-none stroke-current" stroke-width="1.4" stroke-linejoin="round" />
-    <path
-      d="M8 6.5A2 2 0 0 0 6 8.5V20"
-      class="fill-none stroke-current" stroke-width="1.4" stroke-linecap="round" />
-    <path d="M9.5 9H14" class="fill-none stroke-current" stroke-width="1.3" stroke-linecap="round" />
-  </svg>
-</span>
+              <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-red-50 text-[14px]">📚</span>
               <span class="font-semibold text-th8-text">Knowledge</span>
             </div>
             <p class="text-slate-600">SOP, Policy, Document</p>
@@ -151,16 +127,7 @@
         <div class="p-5 border border-th8-border rounded-2xl bg-th8-surface shadow-sm space-y-3">
           <div class="flex items-center justify-between">
             <p class="text-[11px] uppercase tracking-wide text-slate-500">Pillar 1</p>
-            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">
-  <svg viewBox="0 0 24 24" class="h-4 w-4 text-red-500" aria-hidden="true">
-    <rect x="5" y="7" width="14" height="9" rx="2.2"
-          class="fill-none stroke-current" stroke-width="1.5" />
-    <circle cx="10" cy="11" r="1" class="fill-current" />
-    <circle cx="14" cy="11" r="1" class="fill-current" />
-    <path d="M9.5 14h5" class="fill-none stroke-current" stroke-width="1.4" stroke-linecap="round" />
-    <path d="M12 4v2.5" class="fill-none stroke-current" stroke-width="1.4" stroke-linecap="round" />
-  </svg>
-</span>
+            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">🤖</span>
           </div>
           <h3 class="font-semibold text-th8-text">AI Agent Suite</h3>
           <p class="text-th8-text/80 text-[13px]">
@@ -195,17 +162,7 @@
         <div class="p-5 border border-th8-border rounded-2xl bg-th8-surface shadow-sm space-y-3">
           <div class="flex items-center justify-between">
             <p class="text-[11px] uppercase tracking-wide text-slate-500">Pillar 3</p>
-            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">
-  <svg viewBox="0 0 24 24" class="h-4 w-4 text-red-500" aria-hidden="true">
-    <rect x="6" y="11" width="2.8" height="5" rx="0.7"
-          class="fill-none stroke-current" stroke-width="1.4" />
-    <rect x="10.6" y="9" width="2.8" height="7" rx="0.7"
-          class="fill-none stroke-current" stroke-width="1.4" />
-    <rect x="15.2" y="7" width="2.8" height="9" rx="0.7"
-          class="fill-none stroke-current" stroke-width="1.4" />
-    <path d="M5 18.5h14" class="fill-none stroke-current" stroke-width="1.4" stroke-linecap="round" />
-  </svg>
-</span>
+            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">📊</span>
           </div>
           <h3 class="font-semibold text-th8-text">AI Knowledge &amp; Analytics</h3>
           <p class="text-th8-text/80 text-[13px]">
@@ -260,19 +217,7 @@
         <!-- Ops & Logistics -->
         <div class="p-5 border border-th8-border rounded-2xl bg-th8-surface shadow-sm space-y-3">
           <div class="flex items-center gap-2">
-            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">
-  <svg viewBox="0 0 24 24" class="h-4 w-4 text-red-500" aria-hidden="true">
-    <rect x="3.5" y="9" width="9" height="7" rx="1.5"
-          class="fill-none stroke-current" stroke-width="1.4" />
-    <path d="M12.5 11h3.8l1.7 2.5V16h-5.5"
-          class="fill-none stroke-current" stroke-width="1.4"
-          stroke-linecap="round" stroke-linejoin="round" />
-    <circle cx="8" cy="17.5" r="1.4"
-            class="fill-none stroke-current" stroke-width="1.4" />
-    <circle cx="17" cy="17.5" r="1.4"
-            class="fill-none stroke-current" stroke-width="1.4" />
-  </svg>
-</span>
+            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">🚚</span>
             <h3 class="font-semibold text-th8-text">Logistics &amp; Warehouse Agent Suite</h3>
           </div>
           <p class="text-th8-text/80 text-[13px]">
@@ -315,18 +260,7 @@
         <!-- Custom / Co-build -->
         <div class="p-5 border border-th8-border rounded-2xl bg-th8-surface shadow-sm space-y-3">
           <div class="flex items-center gap-2">
-            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">
-  <svg viewBox="0 0 24 24" class="h-4 w-4 text-red-500" aria-hidden="true">
-    <path
-      d="M7 5h4a2 2 0 0 1 2 2v1.2a1.6 1.6 0 1 0 0 3.2V13a2 2 0 0 0 2 2h2v-5a2 2 0 0 0-2-2h-1"
-      class="fill-none stroke-current" stroke-width="1.4"
-      stroke-linecap="round" stroke-linejoin="round" />
-    <path
-      d="M7 5a2 2 0 0 0-2 2v10h6a2 2 0 0 0 2-2v-1.2a1.6 1.6 0 1 1 0-3.2"
-      class="fill-none stroke-current" stroke-width="1.4"
-      stroke-linecap="round" stroke-linejoin="round" />
-  </svg>
-</span>
+            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">🧩</span>
             <h3 class="font-semibold text-th8-text">Co-build Enterprise AI Agent</h3>
           </div>
           <p class="text-th8-text/80 text-[13px]">
@@ -343,15 +277,7 @@
         <div class="p-5 border border-th8-border rounded-2xl bg-th8-surface shadow-sm space-y-3">
           <div class="flex items-center justify-between">
             <div class="flex items-center gap-2">
-              <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">
-  <svg viewBox="0 0 24 24" class="h-4 w-4 text-red-500" aria-hidden="true">
-    <path
-      d="M7 4.5h9a1.5 1.5 0 0 1 1.5 1.5V19l-2-1.2-2 1.2-2-1.2-2 1.2-2-1.2V6A1.5 1.5 0 0 1 7 4.5Z"
-      class="fill-none stroke-current" stroke-width="1.4" stroke-linejoin="round" />
-    <path d="M9.5 9h5" class="fill-none stroke-current" stroke-width="1.3" stroke-linecap="round" />
-    <path d="M9.5 11.5H14" class="fill-none stroke-current" stroke-width="1.3" stroke-linecap="round" />
-  </svg>
-</span>
+              <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">🧾</span>
               <h3 class="font-semibold text-th8-text">AI AP &amp; Reconcile · F&amp;B</h3>
             </div>
             <RouterLink
@@ -375,15 +301,7 @@
           <div class="p-5 border border-th8-border rounded-2xl bg-th8-surface shadow-sm space-y-3">
           <div class="flex items-center justify-between">
             <div class="flex items-center gap-2">
-              <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">
-  <svg viewBox="0 0 24 24" class="h-4 w-4 text-red-500" aria-hidden="true">
-    <path d="M5 9h14v9.5H5V9Z" class="fill-none stroke-current" stroke-width="1.4" />
-    <path d="M4 9h16L12 4.5 4 9Z"
-          class="fill-none stroke-current" stroke-width="1.4" stroke-linejoin="round" />
-    <path d="M9 11.5h6" class="fill-none stroke-current" stroke-width="1.3" stroke-linecap="round" />
-    <path d="M9 14h6" class="fill-none stroke-current" stroke-width="1.3" stroke-linecap="round" />
-  </svg>
-</span>
+              <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">🧾</span>
               <h3 class="font-semibold text-th8-text">AI Agent สำหรับ ธนาคาร · สินเชื่อ · ประกัน</h3>
             </div>
             <RouterLink
@@ -441,22 +359,7 @@
 
         <div class="p-5 border border-th8-border rounded-2xl bg-th8-surface shadow-sm space-y-2">
           <div class="flex items-center gap-2">
-            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">
-  <svg viewBox="0 0 24 24" class="h-4 w-4 text-red-500" aria-hidden="true">
-    <path
-      d="M9 5.5a2.5 2.5 0 0 0-2.5 2.5v6.2A2.3 2.3 0 0 0 8.8 16"
-      class="fill-none stroke-current" stroke-width="1.4" stroke-linecap="round" />
-    <path
-      d="M9 5.5A2.5 2.5 0 0 1 11.5 3 2.5 2.5 0 0 1 14 5.5"
-      class="fill-none stroke-current" stroke-width="1.4" stroke-linecap="round" />
-    <path
-      d="M14 5.5A2.5 2.5 0 0 1 16.5 8v6.2A2.3 2.3 0 0 1 15.2 16"
-      class="fill-none stroke-current" stroke-width="1.4" stroke-linecap="round" />
-    <path
-      d="M11.5 8v7.5"
-      class="fill-none stroke-current" stroke-width="1.4" stroke-linecap="round" />
-  </svg>
-</span>
+            <span class="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-50 text-[14px]">🧠</span>
             <h3 class="font-semibold text-th8-text">คิดแบบ Agentic System</h3>
           </div>
           <ul class="text-[12px] text-th8-text/80 space-y-1 mt-1">

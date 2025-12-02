@@ -68,6 +68,9 @@ import CoreValuesBmcView from '../views/CoreValuesBmcView.vue'
 
 import BfsiAgentSuiteView from '../views/pricing/BfsiAgentSuiteView.vue'
 import AgenticStackToolView from '../views/AgenticStackToolsView.vue'
+import RoiIndustryView from '../views/RoiIndustryView.vue'
+
+
 
 const routes = [
   { path: '/', name: 'home', component: HomeView },
@@ -242,7 +245,9 @@ const routes = [
     path: '/solutions/bfsi-agent-suite',
     name: 'bfsi-agent-suite',
     component: BfsiAgentSuiteView
-  }
+  } ,
+
+  { path: '/roi', name: 'roi', component: RoiIndustryView }
 ]
 
 const router = createRouter({
